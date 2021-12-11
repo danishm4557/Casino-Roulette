@@ -1,0 +1,61 @@
+body {
+    background-color: #1C7022;
+    position: relative;
+    margin-bottom: inherit;
+    width: 30%;
+}
+
+header {
+  position: relative;
+  width: 1435px;
+  background-color: rgb(98,57,27);
+  padding: 5px;
+  text-align: center;
+  font-size: 50px;
+  font-family: monospace;
+  font-weight: bold;
+  margin: -12px;
+}
+
+h1  {
+  position: relative;
+  font-size: 70px;
+  left: 600px;
+  top: -135px;
+  z-index: 2;
+}
+
+#logoImg {
+  position: relative;
+  top: 8px;
+  left: -620px;
+}
+
+
+#rouletteTable {
+  position: absolute;
+  width: 800px;
+  top: 250px;
+  left: 590px;
+}
+
+#rouletteWheel {
+  position: absolute;
+  top: 225px;
+  left: 40px;
+  width: 500px;
+  animation-name: wheelRotate;
+  animation-duration: 4s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+
+@keyframes wheelRotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
