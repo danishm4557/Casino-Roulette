@@ -68,9 +68,9 @@ h1  {
 #winningAmount {
   position: relative;
   top: -218px;
-  left: 355px;
+  left: 335px;
   width: 405px;
-  padding: 5px;
+  padding: 5px 5px 5px 0px;
   font-size: 25px;
   color: white;
   font-family: monospace;
@@ -916,10 +916,13 @@ h1  {
   line-height: 25px;
   left: 699px;
   bottom: 1202px;
-  opacity: 100;
+  opacity: 0;
 }
 
-
+.straightBetButtons {
+  opacity: 0;
+  z-index: 2;
+}
 
 
 
@@ -931,396 +934,462 @@ h1  {
   position: relative;
   left: 700px;
   bottom: 1030px;
+  opacity: 0;
 }
 
 #chip2 {
   position: relative;
   left: 655px;
   bottom: 1100px;
+  opacity: 0;
 }
 
 #chip3 {
   position: relative;
   left: 610px;
   bottom: 1180px;
+  opacity: 0;
 }
 
 #chip4 {
   position: relative;
   left: 620px;
   bottom: 1030px;
+  opacity: 0;
 }
 
 #chip5 {
   position: relative;
   left: 575px;
   bottom: 1100px;
+  opacity: 0;
 }
 
 #chip5 {
   position: relative;
   left: 575px;
   bottom: 1100px;
+  opacity: 0;
 }
 
 #chip6 {
   position: relative;
   left: 533px;
   bottom: 1180px;
+  opacity: 0;
 }
 
 #chip7 {
   position: relative;
   left: 540px;
   bottom: 1030px;
+  opacity: 0;
 }
 
 #chip8 {
   position: relative;
   left: 495px;
   bottom: 1100px;
+  opacity: 0;
 }
 
 #chip9 {
   position: relative;
   left: 455px;
   bottom: 1180px;
+  opacity: 0;
 }
 
 #chip10 {
   position: relative;
   left: 855px;
   bottom: 1060px;
+  opacity: 0;
 }
 
 #chip11 {
   position: relative;
   left: 810px;
   bottom: 1130px;
+  opacity: 0;
 }
 
 #chip12 {
   position: relative;
   left: 770px;
   bottom: 1210px;
+  opacity: 0;
 }
 
 #chip13 {
   position: relative;
   left: 775px;
   bottom: 1060px;
+  opacity: 0;
 }
 
 #chip14 {
   position: relative;
   left: 730px;
   bottom: 1130px;
+  opacity: 0;
 }
 
 #chip15 {
   position: relative;
   left: 685px;
   bottom: 1210px;
+  opacity: 0;
 }
 
 #chip16 {
   position: relative;
   left: 695px;
   bottom: 1060px;
+  opacity: 0;
 }
 
 #chip17 {
   position: relative;
   left: 650px;
   bottom: 1130px;
+  opacity: 0;
 }
 
 #chip18 {
   position: relative;
   left: 605px;
   bottom: 1210px;
+  opacity: 0;
 }
 
 #chip19 {
   position: relative;
   left: 1010px;
   bottom: 1090px;
+  opacity: 0;
 }
 
 #chip20 {
   position: relative;
   left: 965px;
   bottom: 1160px;
+  opacity: 0;
 }
 
 #chip21 {
   position: relative;
   left: 920px;
   bottom: 1240px;
+  opacity: 0;
 }
 
 #chip22 {
   position: relative;
   left: 930px;
   bottom: 1090px;
+  opacity: 0;
 }
 
 #chip23 {
   position: relative;
   left: 885px;
   bottom: 1160px;
+  opacity: 0;
 }
 
 #chip24 {
   position: relative;
   left: 840px;
   bottom: 1240px;
+  opacity: 0;
 }
 
 #chip25 {
   position: relative;
   left: 850px;
   bottom: 1090px;
+  opacity: 0;
 }
 
 #chip26 {
   position: relative;
   left: 805px;
   bottom: 1160px;
+  opacity: 0;
 }
 
 #chip27 {
   position: relative;
   left: 760px;
   bottom: 1240px;
+  opacity: 0;
 }
 
 #chip28 {
   position: relative;
   left: 1160px;
   bottom: 1120px;
+  opacity: 0;
 }
 
 #chip29 {
   position: relative;
   left: 1115px;
   bottom: 1190px;
+  opacity: 0;
 }
 
 #chip30 {
   position: relative;
   left: 1070px;
   bottom: 1270px;
+  opacity: 0;
 }
 
 #chip31 {
   position: relative;
   left: 1080px;
   bottom: 1120px;
+  opacity: 0;
 }
 
 #chip32 {
   position: relative;
   left: 1035px;
   bottom: 1190px;
+  opacity: 0;
 }
 
 #chip33 {
   position: relative;
   left: 990px;
   bottom: 1270px;
+  opacity: 0;
 }
 
 #chip34 {
   position: relative;
   left: 1000px;
   bottom: 1120px;
+  opacity: 0;
 }
 
 #chip35 {
   position: relative;
   left: 955px;
   bottom: 1190px;
+  opacity: 0;
 }
 
 #chip36 {
   position: relative;
   left: 910px;
   bottom: 1270px;
+  opacity: 0;
 }
 
 #chip0 {
   position: relative;
   left: 645px;
   bottom: 1220px;
+  opacity: 0;
 }
 
 #chip2To1One {
   position: relative;
   left: 1270px;
   bottom: 1150px;
+  opacity: 0;
 }
 
 #chip2To1Two {
   position: relative;
   left: 1230px;
   bottom: 1220px;
+  opacity: 0;
 }
 
 #chip2To1Three {
   position: relative;
   left: 1185px;
   bottom: 1300px;
+  opacity: 0;
 }
 
 #chip1st12 {
   position: relative;
   left: 605px;
   bottom: 1085px;
+  opacity: 0;
 }
 
 #chip2nd12 {
   position: relative;
   left: 765px;
   bottom: 1085px;
+  opacity: 0;
 }
 
 #chip3rd12 {
   position: relative;
   left: 920px;
   bottom: 1085px;
+  opacity: 0;
 }
 
 #chip1To18 {
   position: relative;
   left: 425px;
   bottom: 1030px;
+  opacity: 0;
 }
 
 #chipEven {
   position: relative;
   left: 480px;
   bottom: 1030px;
+  opacity: 0;
 }
 
 #chipRed {
   position: relative;
   left: 930px;
   bottom: 1060px;
+  opacity: 0;
 }
 
 #chipBlack {
   position: relative;
   left: 990px;
   bottom: 1060px;
+  opacity: 0;
 }
 
 #chipOdd {
   position: relative;
   left: 1050px;
   bottom: 1060px;
+  opacity: 0;
 }
 
 #chip19To36 {
   position: relative;
   left: 1110px;
   bottom: 1060px;
+  opacity: 0;
 }
 
 #chip1Over2 {
   position: relative;
   left: 700px;
   bottom: 1243px;
+  opacity: 0;
 }
 
 #chip2Over3 {
   position: relative;
   left: 655px;
   bottom: 1315px;
+  opacity: 0;
 }
 
 #chip3Over4 {
   position: relative;
   left: 655px;
   bottom: 1315px;
+  opacity: 0;
 }
 
 #chip4Over5 {
   position: relative;
   left: 665px;
   bottom: 1243px;
+  opacity: 0;
 }
 
 #chip5Over6 {
   position: relative;
   left: 620px;
   bottom: 1315px;
+  opacity: 0;
 }
 
 #chip7Over8 {
   position: relative;
   left: 630px;
   bottom: 1243px;
+  opacity: 0;
 }
 
 #chip8Over9 {
   position: relative;
   left: 585px;
   bottom: 1315px;
+  opacity: 0;
 }
 
 #chip10Over11 {
   position: relative;
   left: 590px;
   bottom: 1242px;
+  opacity: 0;
 }
 
 #chip11Over12 {
   position: relative;
   left: 547px;
   bottom: 1315px;
+  opacity: 0;
 }
 
 #chip13Over14 {
   position: relative;
   left: 555px;
   bottom: 1240px;
+  opacity: 0;
 }
 
 #chip14Over15 {
   position: relative;
   left: 905px;
   bottom: 1345px;
+  opacity: 0;
 }
 
 #chip16Over17 {
   position: relative;
   left: 915px;
   bottom: 1270px;
+  opacity: 0;
 }
 
 #chip17Over18 {
   position: relative;
   left: 867px;
   bottom: 1345px;
+  opacity: 0;
 }
 
 #chip19Over20 {
   position: relative;
   left: 878px;
   bottom: 1270px;
+  opacity: 0;
 }
 
 #chip20Over21 {
   position: relative;
   left: 830px;
   bottom: 1345px;
+  opacity: 0;
 }
 
 #chip22Over23 {
   position: relative;
   left: 842px;
   bottom: 1270px;
+  opacity: 0;
 }
 
 
@@ -1328,54 +1397,63 @@ h1  {
   position: relative;
   left: 795px;
   bottom: 1345px;
+  opacity: 0;
 }
 
 #chip25Over26 {
   position: relative;
   left: 805px;
   bottom: 1270px;
+  opacity: 0;
 }
 
 #chip26Over27 {
   position: relative;
   left: 760px;
   bottom: 1345px;
+  opacity: 0;
 }
 
 #chip28Over29 {
   position: relative;
   left: 1160px;
   bottom: 1300px;
+  opacity: 0;
 }
 
 #chip29Over30 {
   position: relative;
   left: 1120px;
   bottom: 1375px;
+  opacity: 0;
 }
 
 #chip31Over32 {
   position: relative;
   left: 1125px;
   bottom: 1300px;
+  opacity: 0;
 }
 
 #chip32Over33 {
   position: relative;
   left: 1080px;
   bottom: 1375px;
+  opacity: 0;
 }
 
 #chip34Over35 {
   position: relative;
   left: 1090px;
   bottom: 1300px;
+  opacity: 0;
 }
 
 #chip35Over36 {
   position: relative;
   left: 1045px;
   bottom: 1375px;
+  opacity: 0;
 }
 
 
@@ -1386,132 +1464,154 @@ h1  {
   position: relative;
   left: 727px;
   bottom: 1332px;
+  opacity: 0;
 }
 
 #chip2To6 {
   position: relative;
   left: 683px;
   bottom: 1405px;
+  opacity: 0;
 }
 
 #chip4To8 {
   position: relative;
   left: 691px;
   bottom: 1331px;
+  opacity: 0;
 }
 
 #chip5To9 {
   position: relative;
   left: 647px;
   bottom: 1405px;
+  opacity: 0;
 }
 
 #chip7To11 {
   position: relative;
   left: 654px;
   bottom: 1331px;
+  opacity: 0;
 }
 
 #chip8To12 {
   position: relative;
   left: 612px;
   bottom: 1405px;
+  opacity: 0;
 }
 
 #chip10To14 {
   position: relative;
   left: 616px;
   bottom: 1331px;
+  opacity: 0;
 }
 
 #chip11To15 {
   position: relative;
   left: 572px;
   bottom: 1405px;
+  opacity: 0;
 }
 
 #chip13To17 {
   position: relative;
   left: 580px;
   bottom: 1330px;
+  opacity: 0;
 }
 
 #chip14To18 {
   position: relative;
   left: 930px;
   bottom: 1434px;
+  opacity: 0;
 }
 
 #chip16To20 {
   position: relative;
   left: 940px;
   bottom: 1360px;
+  opacity: 0;
 }
 
 #chip17To21 {
   position: relative;
   left: 895px;
   bottom: 1434px;
+  opacity: 0;
 }
 
 #chip19To23 {
   position: relative;
   left: 903px;
   bottom: 1359px;
+  opacity: 0;
 }
 
 #chip20To24 {
   position: relative;
   left: 858px;
   bottom: 1434px;
+  opacity: 0;
 }
 
 #chip22To26 {
   position: relative;
   left: 866px;
   bottom: 1359px;
+  opacity: 0;
 }
 
 #chip23To27 {
   position: relative;
   left: 822px;
   bottom: 1434px;
+  opacity: 0;
 }
 
 #chip25To29 {
   position: relative;
   left: 829px;
   bottom: 1359px;
+  opacity: 0;
 }
 
 #chip26To30 {
   position: relative;
   left: 785px;
   bottom: 1434px;
+  opacity: 0;
 }
 
 #chip28To32 {
   position: relative;
   left: 1187px;
   bottom: 1390px;
+  opacity: 0;
 }
 
 #chip29To33 {
   position: relative;
   left: 1145px;
   bottom: 1465px;
+  opacity: 0;
 }
 
 #chip31To35 {
   position: relative;
   left: 1152px;
   bottom: 1390px;
+  opacity: 0;
 }
 
 #chip32To36 {
   position: relative;
   left: 1108px;
   bottom: 1463px;
+  opacity: 0;
 }
 
 
@@ -1525,13 +1625,13 @@ h1  {
 }
 
 .straightBetChips{
-  opacity: 0;
+  opacity: 100;
 }
 
 .rowBetChips {
-  opacity: 0;
+  opacity: 100;
 }
 
 .fourCornerChips {
-  opacity: 0;
+  opacity: 100;
 }
