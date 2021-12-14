@@ -1,18 +1,147 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+
   <head>
     <meta charset="utf-8">
     <title>Casino Roulette | Win Big!</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="/css/tableBetOptionsButtons.css">
     <header><img id = "logoImg" src = "img/Logo.png" width = "7%"></header>
     <h1>Roulette</h1>
+    <button id = "instructions" type="button" name="button">Instructions</button>
     <div class="greenArea">
       <img id = "rouletteTable" src="img/roulette table.jpeg" alt="">
       <img id = "rouletteWheel" src="img/Picture1.png" alt="" width = "35%">
     </div>
   </head>
-  <body>
 
+  <body>
+    <h2 id = "winningAmount"><u>Winning Amount: $2,500</u></h2>
+    <h2 id = "totalBet"><u>Total Bet: $500</u></h2>
+    <h2 id = "balance"><u>Balance: $3,000</u></h2>
+
+    <button id = "cashOutButton" type="button" name="button">Cash Out</button>
+    <button id = "spinButton" type="button" name="button">Spin</button>
+    <button id = "clearButton" type="button" name="button">Clear</button>
+
+    <img id = "casinoChipsFooter" src= "img/CasinoChips.png" alt = "not working">
+
+    <div class="straightBetButtons">
+      <button id = "option1" type="button" name="button">1</button>
+      <button id = "option2" type="button" name="button">2</button>
+      <button id = "option3" type="button" name="button">3</button>
+      <button id = "option4" type="button" name="button">4</button>
+      <button id = "option5" type="button" name="button">5</button>
+      <button id = "option6" type="button" name="button">6</button>
+      <button id = "option7" type="button" name="button">7</button>
+      <button id = "option8" type="button" name="button">8</button>
+      <button id = "option9" type="button" name="button">9</button>
+      <button id = "option10" type="button" name="button">10</button>
+      <button id = "option11" type="button" name="button">11</button>
+      <button id = "option12" type="button" name="button">12</button>
+      <button id = "option13" type="button" name="button">13</button>
+      <button id = "option14" type="button" name="button">14</button>
+      <button id = "option15" type="button" name="button">15</button>
+      <button id = "option16" type="button" name="button">16</button>
+      <button id = "option17" type="button" name="button">17</button>
+      <button id = "option18" type="button" name="button">18</button>
+      <button id = "option19" type="button" name="button">19</button>
+      <button id = "option20" type="button" name="button">20</button>
+      <button id = "option21" type="button" name="button">21</button>
+      <button id = "option22" type="button" name="button">22</button>
+      <button id = "option23" type="button" name="button">23</button>
+      <button id = "option24" type="button" name="button">24</button>
+      <button id = "option25" type="button" name="button">25</button>
+      <button id = "option26" type="button" name="button">26</button>
+      <button id = "option27" type="button" name="button">27</button>
+      <button id = "option28" type="button" name="button">28</button>
+      <button id = "option29" type="button" name="button">29</button>
+      <button id = "option30" type="button" name="button">30</button>
+      <button id = "option31" type="button" name="button">31</button>
+      <button id = "option32" type="button" name="button">32</button>
+      <button id = "option33" type="button" name="button">33</button>
+      <button id = "option34" type="button" name="button">34</button>
+      <button id = "option35" type="button" name="button">35</button>
+      <button id = "option36" type="button" name="button">36</button>
+      <button id = "option0" type="button" name="button">0</button>
+      <button id = "option1st12" type="button" name="button">1st12</button>
+      <button id = "option2nd12" type="button" name="button">2nd12</button>
+      <button id = "option3rd12" type="button" name="button">3rd12</button>
+      <button id = "option1to18" type="button" name="button">1to18</button>
+      <button id = "optionEven" type="button" name="button">Even</button>
+      <button id = "optionRed" type="button" name="button">Red</button>
+      <button id = "optionBlack" type="button" name="button">Black</button>
+      <button id = "optionOdd" type="button" name="button">Odd</button>
+      <button id = "option19to36" type="button" name="button">19to36</button>
+      <button id = "optionTwoToOne1" type="button" name="button">2to1</button>
+      <button id = "optionTwoToOne2" type="button" name="button">2to1</button>
+      <button id = "optionTwotoOne3" type="button" name="button">2to1</button>
+    </div>
+
+
+    <div class="rowBetButtons">
+      <button id = "oneOverTwo" type="button" name="button">1/2</button>
+      <button id = "twoOverThree" type="button" name="button">2/3</button>
+      <button id = "fourOverFive" type="button" name="button">4/5</button>
+      <button id = "fiveOverSix" type="button" name="button">5/6</button>
+      <button id = "sevenOverEight" type="button" name="button">7/8</button>
+      <button id = "eightOverNine" type="button" name="button">8/9</button>
+      <button id = "tenOverEleven" type="button" name="button">10/11</button>
+      <button id = "elevenOverTwelve" type="button" name="button">11/12</button>
+      <button id = "thirteenOverFourteen" type="button" name="button">13/14</button>
+      <button id = "fourteenOverFifteen" type="button" name="button">14/15</button>
+      <button id = "sixteenOverSeventeen" type="button" name="button">16/17</button>
+      <button id = "seventeenOverEighteen" type="button" name="button">17/18</button>
+      <button id = "nineteenOverTwenty" type="button" name="button">19/20</button>
+      <button id = "twentyOverTwentyOne" type="button" name="button">20/21</button>
+      <button id = "twentyTwoOverTwentyThree" type="button" name="button">22/23</button>
+      <button id = "twentyThreeOverTwentyFour" type="button" name="button">23/24</button>
+      <button id = "twentyFiveOverTwentySix" type="button" name="button">25/26</button>
+      <button id = "twentySixOverTwentySeven" type="button" name="button">26/27</button>
+      <button id = "twentyEightOverTwentyNine" type="button" name="button">28/29</button>
+      <button id = "twentyNineOverThirty" type="button" name="button">29/30</button>
+      <button id = "thirtyOneOverThirtyTwo" type="button" name="button">31/32</button>
+      <button id = "thirtyTwoOverThirtyThree" type="button" name="button">32/33</button>
+      <button id = "thirtyFourOverThirtyFive" type="button" name="button">34/35</button>
+      <button id = "thirtyFiveOverThirtySix" type="button" name="button">35/36</button>
+    </div>
+
+
+    <div class="fourCornerButtons">
+      <button id = "oneToFive" type="button" name="button"></button>
+      <button id = "twoToSix" type="button" name="button"></button>
+      <button id = "fourToEight" type="button" name="button"></button>
+      <button id = "fiveToNine" type="button" name="button"></button>
+      <button id = "sevenToEleven" type="button" name="button"></button>
+      <button id = "eightToTwelve" type="button" name="button"></button>
+      <button id = "tenToFourteen" type="button" name="button"></button>
+      <button id = "elevenToFifteen" type="button" name="button"></button>
+      <button id = "thirteenToSeventeen" type="button" name="button"></button>
+      <button id = "fourteenToEighteen" type="button" name="button"></button>
+      <button id = "sixteenToTwenty" type="button" name="button"></button>
+      <button id = "seventeenToTwentyOne" type="button" name="button"></button>
+      <button id = "nineteenToTwentyThree" type="button" name="button"></button>
+      <button id = "twentyToTwentyFour" type="button" name="button"></button>
+      <button id = "twentyTwoToTwentySix" type="button" name="button"></button>
+      <button id = "twentyThreeToTwentySeven" type="button" name="button"></button>
+      <button id = "twentyfiveToTwentyNine" type="button" name="button"></button>
+      <button id = "twentySixToThirty" type="button" name="button"></button>
+      <button id = "twentyEightToThirtyTwo" type="button" name="button"></button>
+      <button id = "twentyNineToThirtyThree" type="button" name="button"></button>
+      <button id = "thirtyOneToThirtyFive" type="button" name="button"></button>
+      <button id = "thirtyTwoToThirtySix" type="button" name="button"></button>
+    </div>
+
+
+    <div class="instructionsDiv">
+      <p id = instructionsParagraph>
+        1. Place chips on numbers/other options on the board.<br>
+        2. Click “SPIN” to begin the wheel magic.<br>
+        3. Wait for the wheel to stop spinning.<br>
+        4. If the ball rolls in your favor, you will win money.<br>
+        5. Be careful when placing too many chips as you can lose money even if the ball rolls in your favor.
+      </p>
+    </div>
 
 
     <script type="text/javascript" src = "js/app.js"></script>
