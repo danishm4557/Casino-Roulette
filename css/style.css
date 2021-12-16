@@ -546,7 +546,7 @@ h1  {
   left: 550px;
   top: 407px;
   width: 47px;
-  height: 25px;
+  height: 30px;
 }
 
 #twoOverThree {
@@ -554,7 +554,7 @@ h1  {
   left: 550px;
   top: 312px;
   width: 47px;
-  height: 25px;
+  height: 30px;
 }
 
 #fourOverFive {
@@ -562,7 +562,7 @@ h1  {
   left: 617px;
   top: 407px;
   width: 47px;
-  height: 25px;
+  height: 30px;
 }
 
 #fiveOverSix {
@@ -570,7 +570,7 @@ h1  {
   left: 617px;
   top: 312px;
   width: 47px;
-  height: 25px;
+  height: 30px;
 }
 
 #sevenOverEight {
@@ -578,7 +578,7 @@ h1  {
   left: 682px;
   top: 407px;
   width: 47px;
-  height: 25px;
+  height: 30px;
 }
 
 #eightOverNine {
@@ -586,7 +586,7 @@ h1  {
   left: 682px;
   top: 312px;
   width: 47px;
-  height: 25px;
+  height: 30px;
 }
 
 #tenOverEleven {
@@ -594,7 +594,7 @@ h1  {
   left: 747px;
   top: 407px;
   width: 47px;
-  height: 25px;
+  height: 30px;
 }
 
 #elevenOverTwelve {
@@ -602,7 +602,7 @@ h1  {
   left: 747px;
   top: 312px;
   width: 47px;
-  height: 25px;
+  height: 30px;
 }
 
 #thirteenOverFourteen {
@@ -610,7 +610,7 @@ h1  {
   left: 812px;
   top: 407px;
   width: 47px;
-  height: 25px;
+  height: 30px;
 }
 
 #fourteenOverFifteen {
@@ -618,7 +618,7 @@ h1  {
   left: 812px;
   top: 312px;
   width: 47px;
-  height: 25px;
+  height: 30px;
 }
 
 #sixteenOverSeventeen {
@@ -626,7 +626,7 @@ h1  {
   left: 878px;
   top: 407px;
   width: 47px;
-  height: 25px;
+  height: 30px;
 }
 
 #seventeenOverEighteen {
@@ -634,7 +634,7 @@ h1  {
   left: 878px;
   top: 312px;
   width: 47px;
-  height: 25px;
+  height: 30px;
 }
 
 #nineteenOverTwenty {
@@ -642,7 +642,7 @@ h1  {
   left: 943px;
   top: 407px;
   width: 47px;
-  height: 25px;
+  height: 30px;
 }
 
 #twentyOverTwentyOne {
@@ -650,7 +650,7 @@ h1  {
   left: 943px;
   top: 312px;
   width: 47px;
-  height: 25px;
+  height: 30px;
 }
 
 #twentyTwoOverTwentyThree {
@@ -658,7 +658,7 @@ h1  {
   left: 1010px;
   top: 407px;
   width: 47px;
-  height: 25px;
+  height: 30px;
 }
 
 #twentyThreeOverTwentyFour {
@@ -666,7 +666,7 @@ h1  {
   left: 1010px;
   top: 312px;
   width: 47px;
-  height: 25px;
+  height: 30px;
 }
 
 #twentyFiveOverTwentySix {
@@ -674,7 +674,7 @@ h1  {
   left: 1075px;
   top: 407px;
   width: 47px;
-  height: 25px;
+  height: 30px;
 }
 
 #twentySixOverTwentySeven {
@@ -682,7 +682,7 @@ h1  {
   left: 1075px;
   top: 312px;
   width: 47px;
-  height: 25px;
+  height: 30px;
 }
 
 #twentyEightOverTwentyNine {
@@ -690,7 +690,7 @@ h1  {
   left: 1140px;
   top: 407px;
   width: 47px;
-  height: 25px;
+  height: 30px;
 }
 
 #twentyNineOverThirty {
@@ -698,7 +698,7 @@ h1  {
   left: 1140px;
   top: 312px;
   width: 47px;
-  height: 25px;
+  height: 30px;
 }
 
 #thirtyOneOverThirtyTwo {
@@ -706,7 +706,7 @@ h1  {
   left: 1205px;
   top: 407px;
   width: 47px;
-  height: 25px;
+  height: 30px;
 }
 
 #thirtyTwoOverThirtyThree {
@@ -714,7 +714,7 @@ h1  {
   left: 1205px;
   top: 312px;
   width: 47px;
-  height: 25px;
+  height: 30px;
 }
 
 #thirtyFourOverThirtyFive {
@@ -722,7 +722,7 @@ h1  {
   left: 1270px;
   top: 407px;
   width: 47px;
-  height: 25px;
+  height: 30px;
 }
 
 #thirtyFiveOverThirtySix {
@@ -730,7 +730,7 @@ h1  {
   left: 1270px;
   top: 312px;
   width: 47px;
-  height: 25px;
+  height: 30px;
 }
 
 #oneToFive {
@@ -909,6 +909,278 @@ h1  {
   height: 43px;
 }
 
+
+
+
+
+
+/* columnButtons */
+#oneOverFour {
+  position: absolute;
+  left: 595px;
+  top: 450px;
+  width: 25px;
+  height: 55px;
+}
+
+#twoOverFive {
+  position: absolute;
+  left: 595px;
+  top: 350px;
+  width: 25px;
+  height: 55px;
+}
+
+#threeOverSix {
+  position: absolute;
+  left: 595px;
+  top: 250px;
+  width: 25px;
+  height: 55px;
+}
+
+#fourOverSeven {
+  position: absolute;
+  left: 660px;
+  top: 450px;
+  width: 25px;
+  height: 55px;
+}
+
+#fiveOverEight {
+  position: absolute;
+  left: 660px;
+  top: 350px;
+  width: 25px;
+  height: 55px;
+}
+
+#sixOverNine {
+  position: absolute;
+  left: 660px;
+  top: 250px;
+  width: 25px;
+  height: 55px;
+}
+
+#sevenOverTen {
+  position: absolute;
+  left: 725px;
+  top: 450px;
+  width: 25px;
+  height: 55px;
+}
+
+#eightOverEleven {
+  position: absolute;
+  left: 725px;
+  top: 350px;
+  width: 25px;
+  height: 55px;
+}
+
+#nineOverTwelve {
+  position: absolute;
+  left: 725px;
+  top: 250px;
+  width: 25px;
+  height: 55px;
+}
+
+#tenOverThirteen {
+  position: absolute;
+  left: 790px;
+  top: 450px;
+  width: 25px;
+  height: 55px;
+}
+
+#elevenOverFourteen {
+  position: absolute;
+  left: 790px;
+  top: 350px;
+  width: 25px;
+  height: 55px;
+}
+
+#twelveOverFifteen {
+  position: absolute;
+  left: 790px;
+  top: 250px;
+  width: 25px;
+  height: 55px;
+}
+
+#thirteenOverSixteen {
+  position: absolute;
+  left: 855px;
+  top: 450px;
+  width: 25px;
+  height: 55px;
+}
+
+#fourteenOverSeventeen {
+  position: absolute;
+  left: 855px;
+  top: 350px;
+  width: 25px;
+  height: 55px;
+}
+
+#fifteenOverEighteen {
+  position: absolute;
+  left: 855px;
+  top: 250px;
+  width: 25px;
+  height: 55px;
+}
+
+#sixteenOverNineteen {
+  position: absolute;
+  left: 920px;
+  top: 450px;
+  width: 25px;
+  height: 55px;
+}
+
+#seventeenOverTwenty {
+  position: absolute;
+  left: 920px;
+  top: 350px;
+  width: 25px;
+  height: 55px;
+}
+
+#eighteenOverTwentyOne {
+  position: absolute;
+  left: 920px;
+  top: 250px;
+  width: 25px;
+  height: 55px;
+}
+
+#nineteenOverTwentyTwo {
+  position: absolute;
+  left: 987px;
+  top: 450px;
+  width: 25px;
+  height: 55px;
+}
+
+#twentyOverTwentyThree {
+  position: absolute;
+  left: 987px;
+  top: 350px;
+  width: 25px;
+  height: 55px;
+}
+
+#twentyOneOverTwentyFour {
+  position: absolute;
+  left: 987px;
+  top: 250px;
+  width: 25px;
+  height: 55px;
+}
+
+#twentyTwoOverTwentyFive {
+  position: absolute;
+  left: 1053px;
+  top: 450px;
+  width: 25px;
+  height: 55px;
+}
+
+#twentyThreeOverTwentySix {
+  position: absolute;
+  left: 1053px;
+  top: 350px;
+  width: 25px;
+  height: 55px;
+}
+
+#twentyFourOverTwentySeven {
+  position: absolute;
+  left: 1053px;
+  top: 250px;
+  width: 25px;
+  height: 55px;
+}
+
+#twentyFiveOverTwentyEight {
+  position: absolute;
+  left: 1118px;
+  top: 450px;
+  width: 25px;
+  height: 55px;
+}
+
+#twentySixOverTwentyNine {
+  position: absolute;
+  left: 1118px;
+  top: 350px;
+  width: 25px;
+  height: 55px;
+}
+
+#twentySevenOverThirty {
+  position: absolute;
+  left: 1118px;
+  top: 250px;
+  width: 25px;
+  height: 55px;
+}
+
+#twentyEightOverThirtyOne {
+  position: absolute;
+  left: 1183px;
+  top: 450px;
+  width: 25px;
+  height: 55px;
+}
+
+#twentyNineOverThirtyTwo {
+  position: absolute;
+  left: 1183px;
+  top: 350px;
+  width: 25px;
+  height: 55px;
+}
+
+#thirtyOverThirtyThree {
+  position: absolute;
+  left: 1183px;
+  top: 250px;
+  width: 25px;
+  height: 55px;
+}
+
+#thirtyOneOverThirtyFour {
+  position: absolute;
+  left: 1248px;
+  top: 450px;
+  width: 25px;
+  height: 55px;
+}
+
+#thirtyTwoOverThirtyFive{
+  position: absolute;
+  left: 1248px;
+  top: 350px;
+  width: 25px;
+  height: 55px;
+}
+
+#thirtyThreeOverThirtySix {
+  position: absolute;
+  left: 1248px;
+  top: 250px;
+  width: 25px;
+  height: 55px;
+}
+
+
+
 .instructionsDiv {
   z-index: -3;
   width: 700px;
@@ -925,18 +1197,25 @@ h1  {
 }
 
 .straightBetButtons {
-  opacity: 0;
+  opacity: 100;
+  z-index: 5
   /* z-index: 2; */
 }
 
 .rowBetButtons {
-  opacity: 0;
+  opacity: 100;
+    z-index: 5
 }
 
 .fourCornerButtons {
-  opacity: 0;
+  opacity: 100;
+    z-index: 5
 }
 
+.columnButtons {
+  opacity: 100;
+    z-index: 5
+}
 
 /* CHIPS FOR EACH BUTTON */
 
@@ -1611,6 +1890,247 @@ h1  {
   top: 312px;
   opacity: 0;
 }
+
+
+
+
+/* columnBetChips */
+
+#chip1Over4 {
+  position: absolute;
+  left: 587px;
+  top: 475px;
+  opacity: 0;
+}
+
+#chip2Over5 {
+  position: absolute;
+  left: 587px;
+  top: 375px;
+  opacity: 0;
+}
+
+#chip3Over6 {
+  position: absolute;
+  left: 587px;
+  top: 275px;
+  opacity: 0;
+}
+
+#chip4Over7 {
+  position: absolute;
+  left: 653px;
+  top: 475px;
+  opacity: 0;
+}
+
+#chip5Over8 {
+  position: absolute;
+  left: 653px;
+  top: 375px;
+  opacity: 0;
+}
+
+
+#chip6Over9 {
+  position: absolute;
+  left: 653px;
+  top: 275px;
+  opacity: 0;
+}
+
+#chip7Over10 {
+  position: absolute;
+  left: 718px;
+  top: 475px;
+  opacity: 0;
+}
+
+#chip8Over11 {
+  position: absolute;
+  left: 718px;
+  top: 375px;
+  opacity: 0;
+}
+
+#chip9Over12 {
+  position: absolute;
+  left: 718px;
+  top: 275px;
+  opacity: 0;
+}
+
+#chip10Over13 {
+  position: absolute;
+  left: 783px;
+  top: 475px;
+  opacity: 0;
+}
+
+#chip11Over14 {
+  position: absolute;
+  left: 783px;
+  top: 375px;
+  opacity: 0;
+}
+
+#chip12Over15 {
+  position: absolute;
+  left: 783px;
+  top: 275px;
+  opacity: 0;
+}
+
+#chip13Over16 {
+  position: absolute;
+  left: 848px;
+  top: 475px;
+  opacity: 0;
+}
+
+#chip14Over17 {
+  position: absolute;
+  left: 848px;
+  top: 375px;
+  opacity: 0;
+}
+
+#chip15Over18 {
+  position: absolute;
+  left: 848px;
+  top: 275px;
+  opacity: 0;
+}
+
+#chip16Over19 {
+  position: absolute;
+  left: 913px;
+  top: 475px;
+  opacity: 0;
+}
+
+#chip17Over20 {
+  position: absolute;
+  left: 913px;
+  top: 375px;
+  opacity: 0;
+}
+
+#chip18Over21 {
+  position: absolute;
+  left: 913px;
+  top: 275px;
+  opacity: 0;
+}
+
+#chip19Over22 {
+  position: absolute;
+  left: 980px;
+  top: 475px;
+  opacity: 0;
+}
+
+#chip20Over23 {
+  position: absolute;
+  left: 980px;
+  top: 375px;
+  opacity: 0;
+}
+
+#chip21Over24 {
+  position: absolute;
+  left: 980px;
+  top: 275px;
+  opacity: 0;
+}
+
+#chip22Over25 {
+  position: absolute;
+  left: 1045px;
+  top: 475px;
+  opacity: 0;
+}
+
+#chip23Over26 {
+  position: absolute;
+  left: 1045px;
+  top: 375px;
+  opacity: 0;
+}
+
+#chip24Over27 {
+  position: absolute;
+  left: 1045px;
+  top: 275px;
+  opacity: 0;
+}
+
+#chip25Over28 {
+  position: absolute;
+  left: 1110px;
+  top: 475px;
+  opacity: 0;
+}
+
+#chip26Over29 {
+  position: absolute;
+  left: 1110px;
+  top: 375px;
+  opacity: 0;
+}
+
+#chip27Over30 {
+  position: absolute;
+  left: 1110px;
+  top: 275px;
+  opacity: 0;
+}
+
+#chip28Over31 {
+  position: absolute;
+  left: 1175px;
+  top: 475px;
+  opacity: 0;
+}
+
+#chip29Over32 {
+  position: absolute;
+  left: 1175px;
+  top: 375px;
+  opacity: 0;
+}
+
+#chip30Over33 {
+  position: absolute;
+  left: 1175px;
+  top: 275px;
+  opacity: 0;
+}
+
+#chip31Over34 {
+  position: absolute;
+  left: 1240px;
+  top: 475px;
+  opacity: 0;
+}
+
+#chip32Over35 {
+  position: absolute;
+  left: 1240px;
+  top: 375px;
+  opacity: 0;
+}
+
+#chip33Over36 {
+  position: absolute;
+  left: 1240px;
+  top: 275px;
+  opacity: 0;
+}
+
+
+
+
 
 
 @keyframes wheelRotate {

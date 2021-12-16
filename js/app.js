@@ -127,6 +127,41 @@ option28to32WinningAmount = 0
 option29to33WinningAmount = 0
 option31to35WinningAmount = 0
 option32to36WinningAmount = 0
+option1Over4WinningAmount = 0
+option2Over5WinningAmount = 0
+option3Over6WinningAmount = 0
+option4Over7WinningAmount = 0
+option5Over8WinningAmount = 0
+option6Over9WinningAmount = 0
+option7Over10WinningAmount = 0
+option8Over11WinningAmount = 0
+option9Over12WinningAmount = 0
+option10Over13WinningAmount = 0
+option11Over14WinningAmount = 0
+option12Over15WinningAmount = 0
+option13Over16WinningAmount = 0
+option14Over17WinningAmount = 0
+option15Over18WinningAmount = 0
+option16Over19WinningAmount = 0
+option17Over20WinningAmount = 0
+option18Over21WinningAmount = 0
+option19Over22WinningAmount = 0
+option20Over23WinningAmount = 0
+option21Over24WinningAmount = 0
+option22Over25WinningAmount = 0
+option23Over26WinningAmount = 0
+option24Over27WinningAmount = 0
+option25Over28WinningAmount = 0
+option26Over29WinningAmount = 0
+option27Over30WinningAmount = 0
+option28Over31WinningAmount = 0
+option29Over32WinningAmount = 0
+option30Over33WinningAmount = 0
+option31Over34WinningAmount = 0
+option32Over35WinningAmount = 0
+option33Over36WinningAmount = 0
+
+
 
 
 
@@ -226,8 +261,39 @@ let option28to32Click = 0
 let option29to33Click = 0
 let option31to35Click = 0
 let option32to36Click = 0
-
-
+let option1Over4Click = 0
+let option2Over5Click = 0
+let option3Over6Click = 0
+let option4Over7Click = 0
+let option5Over8Click = 0
+let option6Over9Click = 0
+let option7Over10Click = 0
+let option8Over11Click = 0
+let option9Over12Click = 0
+let option10Over13Click = 0
+let option11Over14Click = 0
+let option12Over15Click = 0
+let option13Over16Click = 0
+let option14Over17Click = 0
+let option15Over18Click = 0
+let option16Over19Click = 0
+let option17Over20Click = 0
+let option18Over21Click = 0
+let option19Over22Click = 0
+let option20Over23Click = 0
+let option21Over24Click = 0
+let option22Over25Click = 0
+let option23Over26Click = 0
+let option24Over27Click = 0
+let option25Over28Click = 0
+let option26Over29Click = 0
+let option27Over30Click = 0
+let option28Over31Click = 0
+let option29Over32Click = 0
+let option30Over33Click = 0
+let option31Over34Click = 0
+let option32Over35Click = 0
+let option33Over36Click = 0
 
 
 
@@ -335,6 +401,39 @@ clear.addEventListener('click', () => {
   option29to33WinningAmount = 0
   option31to35WinningAmount = 0
   option32to36WinningAmount = 0
+  option1Over4WinningAmount = 0
+  option2Over5WinningAmount = 0
+  option3Over6WinningAmount = 0
+  option4Over7WinningAmount = 0
+  option5Over8WinningAmount = 0
+  option6Over9WinningAmount = 0
+  option7Over10WinningAmount = 0
+  option8Over11WinningAmount = 0
+  option9Over12WinningAmount = 0
+  option10Over13WinningAmount = 0
+  option11Over14WinningAmount = 0
+  option12Over15WinningAmount = 0
+  option13Over16WinningAmount = 0
+  option14Over17WinningAmount = 0
+  option15Over18WinningAmount = 0
+  option16Over19WinningAmount = 0
+  option17Over20WinningAmount = 0
+  option18Over21WinningAmount = 0
+  option19Over22WinningAmount = 0
+  option20Over23WinningAmount = 0
+  option21Over24WinningAmount = 0
+  option22Over25WinningAmount = 0
+  option23Over26WinningAmount = 0
+  option24Over27WinningAmount = 0
+  option25Over28WinningAmount = 0
+  option26Over29WinningAmount = 0
+  option27Over30WinningAmount = 0
+  option28Over31WinningAmount = 0
+  option29Over32WinningAmount = 0
+  option30Over33WinningAmount = 0
+  option31Over34WinningAmount = 0
+  option32Over35WinningAmount = 0
+  option33Over36WinningAmount = 0
 
 
   option0Click = 0
@@ -432,6 +531,40 @@ clear.addEventListener('click', () => {
   option29to33Click = 0
   option31to35Click = 0
   option32to36Click = 0
+  option1Over4Click = 0
+  option2Over5Click = 0
+  option3Over6Click = 0
+  option4Over7Click = 0
+  option5Over8Click = 0
+  option6Over9Click = 0
+  option7Over10Click = 0
+  option8Over11Click = 0
+  option9Over12Click = 0
+  option10Over13Click = 0
+  option11Over14Click = 0
+  option12Over15Click = 0
+  option13Over16Click = 0
+  option14Over17Click = 0
+  option15Over18Click = 0
+  option16Over19Click = 0
+  option17Over20Click = 0
+  option18Over21Click = 0
+  option19Over22Click = 0
+  option20Over23Click = 0
+  option21Over24Click = 0
+  option22Over25Click = 0
+  option23Over26Click = 0
+  option24Over27Click = 0
+  option25Over28Click = 0
+  option26Over29Click = 0
+  option27Over30Click = 0
+  option28Over31Click = 0
+  option29Over32Click = 0
+  option30Over33Click = 0
+  option31Over34Click = 0
+  option32Over35Click = 0
+  option33Over36Click = 0
+
 
   console.log(totalBet);
   console.log(wallet);
@@ -534,15 +667,39 @@ clear.addEventListener('click', () => {
   document.querySelector('#chip31To35').style.opacity = 0
   document.querySelector('#chip32To36').style.opacity = 0
 
-
-
-
-
-
-
-
-
-
+  document.querySelector('#chip1Over4').style.opacity = 0
+  document.querySelector('#chip2Over5').style.opacity = 0
+  document.querySelector('#chip3Over6').style.opacity = 0
+  document.querySelector('#chip4Over7').style.opacity = 0
+  document.querySelector('#chip5Over8').style.opacity = 0
+  document.querySelector('#chip6Over9').style.opacity = 0
+  document.querySelector('#chip7Over10').style.opacity = 0
+  document.querySelector('#chip8Over11').style.opacity = 0
+  document.querySelector('#chip9Over12').style.opacity = 0
+  document.querySelector('#chip10Over13').style.opacity = 0
+  document.querySelector('#chip11Over14').style.opacity = 0
+  document.querySelector('#chip12Over15').style.opacity = 0
+  document.querySelector('#chip13Over16').style.opacity = 0
+  document.querySelector('#chip14Over17').style.opacity = 0
+  document.querySelector('#chip15Over18').style.opacity = 0
+  document.querySelector('#chip16Over19').style.opacity = 0
+  document.querySelector('#chip17Over20').style.opacity = 0
+  document.querySelector('#chip18Over21').style.opacity = 0
+  document.querySelector('#chip19Over22').style.opacity = 0
+  document.querySelector('#chip20Over23').style.opacity = 0
+  document.querySelector('#chip21Over24').style.opacity = 0
+  document.querySelector('#chip22Over25').style.opacity = 0
+  document.querySelector('#chip23Over26').style.opacity = 0
+  document.querySelector('#chip24Over27').style.opacity = 0
+  document.querySelector('#chip25Over28').style.opacity = 0
+  document.querySelector('#chip26Over29').style.opacity = 0
+  document.querySelector('#chip27Over30').style.opacity = 0
+  document.querySelector('#chip28Over31').style.opacity = 0
+  document.querySelector('#chip29Over32').style.opacity = 0
+  document.querySelector('#chip30Over33').style.opacity = 0
+  document.querySelector('#chip31Over34').style.opacity = 0
+  document.querySelector('#chip32Over35').style.opacity = 0
+  document.querySelector('#chip33Over36').style.opacity = 0
 
 })
 
@@ -1005,7 +1162,7 @@ option34.addEventListener('click', ()=>{
   }
 })
 
-const option35 = document.querySelector('#option32')
+const option35 = document.querySelector('#option35')
 option35.addEventListener('click', ()=>{
   if (wallet > 4) {
     console.log("option35 was clicked");
@@ -1784,6 +1941,441 @@ optionThirtyTwoToThirtySix.addEventListener('click', ()=>{
     option32to36Click++
   }
 })
+
+
+
+
+
+
+const optionOneOverFour = document.querySelector('#oneOverFour')
+optionOneOverFour.addEventListener('click', ()=>{
+  if (wallet > 4) {
+    console.log("oneOverFour was clicked");
+    totalBet += 5
+    document.querySelector('#totalBet').innerText = `Total Bet: $${totalBet}`
+    wallet -= 5
+    document.querySelector('#balance').innerText = `Balance: $${wallet}`
+    document.querySelector('#chip1Over4').style.opacity = 100
+    option1Over4Click++
+  }
+})
+
+const optionTwoOverFive = document.querySelector('#twoOverFive')
+optionTwoOverFive.addEventListener('click', ()=>{
+  if (wallet > 4) {
+    console.log("twoOverFive was clicked");
+    totalBet += 5
+    document.querySelector('#totalBet').innerText = `Total Bet: $${totalBet}`
+    wallet -= 5
+    document.querySelector('#balance').innerText = `Balance: $${wallet}`
+    document.querySelector('#chip2Over5').style.opacity = 100
+    option2Over5Click++
+  }
+})
+
+const optionThreeOverSix = document.querySelector('#threeOverSix')
+optionThreeOverSix.addEventListener('click', ()=>{
+  if (wallet > 4) {
+    console.log("threeOverSix was clicked");
+    totalBet += 5
+    document.querySelector('#totalBet').innerText = `Total Bet: $${totalBet}`
+    wallet -= 5
+    document.querySelector('#balance').innerText = `Balance: $${wallet}`
+    document.querySelector('#chip3Over6').style.opacity = 100
+    option3Over6Click++
+  }
+})
+
+const optionFourOverSeven = document.querySelector('#fourOverSeven')
+optionFourOverSeven.addEventListener('click', ()=>{
+  if (wallet > 4) {
+    console.log("fourOverSeven was clicked");
+    totalBet += 5
+    document.querySelector('#totalBet').innerText = `Total Bet: $${totalBet}`
+    wallet -= 5
+    document.querySelector('#balance').innerText = `Balance: $${wallet}`
+    document.querySelector('#chip4Over7').style.opacity = 100
+    option4Over7Click++
+  }
+})
+
+const optionFiveOverEight = document.querySelector('#fiveOverEight')
+optionFiveOverEight.addEventListener('click', ()=>{
+  if (wallet > 4) {
+    console.log("fiveOverEight was clicked");
+    totalBet += 5
+    document.querySelector('#totalBet').innerText = `Total Bet: $${totalBet}`
+    wallet -= 5
+    document.querySelector('#balance').innerText = `Balance: $${wallet}`
+    document.querySelector('#chip5Over8').style.opacity = 100
+    option5Over8Click++
+  }
+})
+
+const optionSixOverNine = document.querySelector('#sixOverNine')
+optionSixOverNine.addEventListener('click', ()=>{
+  if (wallet > 4) {
+    console.log("sixOverNine was clicked");
+    totalBet += 5
+    document.querySelector('#totalBet').innerText = `Total Bet: $${totalBet}`
+    wallet -= 5
+    document.querySelector('#balance').innerText = `Balance: $${wallet}`
+    document.querySelector('#chip6Over9').style.opacity = 100
+    option6Over9Click++
+  }
+})
+
+const optionSevenOverTen = document.querySelector('#sevenOverTen')
+optionSevenOverTen.addEventListener('click', ()=>{
+  if (wallet > 4) {
+    console.log("sevenOverTen was clicked");
+    totalBet += 5
+    document.querySelector('#totalBet').innerText = `Total Bet: $${totalBet}`
+    wallet -= 5
+    document.querySelector('#balance').innerText = `Balance: $${wallet}`
+    document.querySelector('#chip7Over10').style.opacity = 100
+    option7Over10Click++
+  }
+})
+
+const optionEightOverEleven = document.querySelector('#eightOverEleven')
+optionEightOverEleven.addEventListener('click', ()=>{
+  if (wallet > 4) {
+    console.log("eightOverEleven was clicked");
+    totalBet += 5
+    document.querySelector('#totalBet').innerText = `Total Bet: $${totalBet}`
+    wallet -= 5
+    document.querySelector('#balance').innerText = `Balance: $${wallet}`
+    document.querySelector('#chip8Over11').style.opacity = 100
+    option8Over11Click++
+  }
+})
+
+const optionNineOverTwelve = document.querySelector('#nineOverTwelve')
+optionNineOverTwelve.addEventListener('click', ()=>{
+  if (wallet > 4) {
+    console.log("nineOverTwelve was clicked");
+    totalBet += 5
+    document.querySelector('#totalBet').innerText = `Total Bet: $${totalBet}`
+    wallet -= 5
+    document.querySelector('#balance').innerText = `Balance: $${wallet}`
+    document.querySelector('#chip9Over12').style.opacity = 100
+    option9Over12Click++
+  }
+})
+
+const optionTenOverThirteen = document.querySelector('#tenOverThirteen')
+optionTenOverThirteen.addEventListener('click', ()=>{
+  if (wallet > 4) {
+    console.log("tenOverThirteen was clicked");
+    totalBet += 5
+    document.querySelector('#totalBet').innerText = `Total Bet: $${totalBet}`
+    wallet -= 5
+    document.querySelector('#balance').innerText = `Balance: $${wallet}`
+    document.querySelector('#chip10Over13').style.opacity = 100
+    option10Over13Click++
+  }
+})
+
+const optionElevenOverFourteen = document.querySelector('#elevenOverFourteen')
+optionElevenOverFourteen.addEventListener('click', ()=>{
+  if (wallet > 4) {
+    console.log("elevenOverFourteen was clicked");
+    totalBet += 5
+    document.querySelector('#totalBet').innerText = `Total Bet: $${totalBet}`
+    wallet -= 5
+    document.querySelector('#balance').innerText = `Balance: $${wallet}`
+    document.querySelector('#chip11Over14').style.opacity = 100
+    option11Over14Click++
+  }
+})
+
+const optionTwelveOverFifteen = document.querySelector('#twelveOverFifteen')
+optionTwelveOverFifteen.addEventListener('click', ()=>{
+  if (wallet > 4) {
+    console.log("twelveOverFifteen was clicked");
+    totalBet += 5
+    document.querySelector('#totalBet').innerText = `Total Bet: $${totalBet}`
+    wallet -= 5
+    document.querySelector('#balance').innerText = `Balance: $${wallet}`
+    document.querySelector('#chip12Over15').style.opacity = 100
+    option12Over15Click++
+  }
+})
+
+const optionThirteenOverSixteen = document.querySelector('#thirteenOverSixteen')
+optionThirteenOverSixteen.addEventListener('click', ()=>{
+  if (wallet > 4) {
+    console.log("thirteenOverSixteen was clicked");
+    totalBet += 5
+    document.querySelector('#totalBet').innerText = `Total Bet: $${totalBet}`
+    wallet -= 5
+    document.querySelector('#balance').innerText = `Balance: $${wallet}`
+    document.querySelector('#chip13Over16').style.opacity = 100
+    option13Over16Click++
+  }
+})
+
+const optionFourteenOverSeventeen = document.querySelector('#fourteenOverSeventeen')
+optionFourteenOverSeventeen.addEventListener('click', ()=>{
+  if (wallet > 4) {
+    console.log("fourteenOverSeventeen was clicked");
+    totalBet += 5
+    document.querySelector('#totalBet').innerText = `Total Bet: $${totalBet}`
+    wallet -= 5
+    document.querySelector('#balance').innerText = `Balance: $${wallet}`
+    document.querySelector('#chip14Over17').style.opacity = 100
+    option14Over17Click++
+  }
+})
+
+const optionFifteenOverEighteen = document.querySelector('#fifteenOverEighteen')
+optionFifteenOverEighteen.addEventListener('click', ()=>{
+  if (wallet > 4) {
+    console.log("fifteenOverEighteen was clicked");
+    totalBet += 5
+    document.querySelector('#totalBet').innerText = `Total Bet: $${totalBet}`
+    wallet -= 5
+    document.querySelector('#balance').innerText = `Balance: $${wallet}`
+    document.querySelector('#chip15Over18').style.opacity = 100
+    option15Over18Click++
+  }
+})
+
+const optionSixteenOverNineteen = document.querySelector('#sixteenOverNineteen')
+optionSixteenOverNineteen.addEventListener('click', ()=>{
+  if (wallet > 4) {
+    console.log("sixteenOverNineteen was clicked");
+    totalBet += 5
+    document.querySelector('#totalBet').innerText = `Total Bet: $${totalBet}`
+    wallet -= 5
+    document.querySelector('#balance').innerText = `Balance: $${wallet}`
+    document.querySelector('#chip16Over19').style.opacity = 100
+    option16Over19Click++
+  }
+})
+
+const optionSeventeenOverTwenty = document.querySelector('#seventeenOverTwenty')
+optionSeventeenOverTwenty.addEventListener('click', ()=>{
+  if (wallet > 4) {
+    console.log("seventeenOverTwenty was clicked");
+    totalBet += 5
+    document.querySelector('#totalBet').innerText = `Total Bet: $${totalBet}`
+    wallet -= 5
+    document.querySelector('#balance').innerText = `Balance: $${wallet}`
+    document.querySelector('#chip17Over20').style.opacity = 100
+    option17Over20Click++
+  }
+})
+
+const optionEighteenOverTwentyOne = document.querySelector('#eighteenOverTwentyOne')
+optionEighteenOverTwentyOne.addEventListener('click', ()=>{
+  if (wallet > 4) {
+    console.log("eighteenOverTwentyOne was clicked");
+    totalBet += 5
+    document.querySelector('#totalBet').innerText = `Total Bet: $${totalBet}`
+    wallet -= 5
+    document.querySelector('#balance').innerText = `Balance: $${wallet}`
+    document.querySelector('#chip18Over21').style.opacity = 100
+    option18Over21Click++
+  }
+})
+
+const optionNineteenOverTwentyTwo = document.querySelector('#nineteenOverTwentyTwo')
+optionNineteenOverTwentyTwo.addEventListener('click', ()=>{
+  if (wallet > 4) {
+    console.log("nineteenOverTwentyTwo was clicked");
+    totalBet += 5
+    document.querySelector('#totalBet').innerText = `Total Bet: $${totalBet}`
+    wallet -= 5
+    document.querySelector('#balance').innerText = `Balance: $${wallet}`
+    document.querySelector('#chip19Over22').style.opacity = 100
+    option19Over22Click++
+  }
+})
+
+const optionTwentyOverTwentyThree = document.querySelector('#twentyOverTwentyThree')
+optionTwentyOverTwentyThree.addEventListener('click', ()=>{
+  if (wallet > 4) {
+    console.log("twentyOverTwentyThree was clicked");
+    totalBet += 5
+    document.querySelector('#totalBet').innerText = `Total Bet: $${totalBet}`
+    wallet -= 5
+    document.querySelector('#balance').innerText = `Balance: $${wallet}`
+    document.querySelector('#chip20Over23').style.opacity = 100
+    option20Over23Click++
+  }
+})
+
+const optionTwentyOneOverTwentyFour = document.querySelector('#twentyOneOverTwentyFour')
+optionTwentyOneOverTwentyFour.addEventListener('click', ()=>{
+  if (wallet > 4) {
+    console.log("twentyOneOverTwentyFour was clicked");
+    totalBet += 5
+    document.querySelector('#totalBet').innerText = `Total Bet: $${totalBet}`
+    wallet -= 5
+    document.querySelector('#balance').innerText = `Balance: $${wallet}`
+    document.querySelector('#chip21Over24').style.opacity = 100
+    option21Over24Click++
+  }
+})
+
+const optionTwentyTwoOverTwentyFive = document.querySelector('#twentyTwoOverTwentyFive')
+optionTwentyTwoOverTwentyFive.addEventListener('click', ()=>{
+  if (wallet > 4) {
+    console.log("twentyTwoOverTwentyFive was clicked");
+    totalBet += 5
+    document.querySelector('#totalBet').innerText = `Total Bet: $${totalBet}`
+    wallet -= 5
+    document.querySelector('#balance').innerText = `Balance: $${wallet}`
+    document.querySelector('#chip22Over25').style.opacity = 100
+    option22Over25Click++
+  }
+})
+
+const optionTwentyThreeOverTwentySix = document.querySelector('#twentyThreeOverTwentySix')
+optionTwentyThreeOverTwentySix.addEventListener('click', ()=>{
+  if (wallet > 4) {
+    console.log("twentyThreeOverTwentySix was clicked");
+    totalBet += 5
+    document.querySelector('#totalBet').innerText = `Total Bet: $${totalBet}`
+    wallet -= 5
+    document.querySelector('#balance').innerText = `Balance: $${wallet}`
+    document.querySelector('#chip23Over26').style.opacity = 100
+    option23Over26Click++
+  }
+})
+
+const optionTwentyFourOverTwentySeven = document.querySelector('#twentyFourOverTwentySeven')
+optionTwentyFourOverTwentySeven.addEventListener('click', ()=>{
+  if (wallet > 4) {
+    console.log("twentyFourOverTwentySeven was clicked");
+    totalBet += 5
+    document.querySelector('#totalBet').innerText = `Total Bet: $${totalBet}`
+    wallet -= 5
+    document.querySelector('#balance').innerText = `Balance: $${wallet}`
+    document.querySelector('#chip24Over27').style.opacity = 100
+    option24Over27Click++
+  }
+})
+
+const optionTwentyFiveOverTwentyEight = document.querySelector('#twentyFiveOverTwentyEight')
+optionTwentyFiveOverTwentyEight.addEventListener('click', ()=>{
+  if (wallet > 4) {
+    console.log("twentyFiveOverTwentyEight was clicked");
+    totalBet += 5
+    document.querySelector('#totalBet').innerText = `Total Bet: $${totalBet}`
+    wallet -= 5
+    document.querySelector('#balance').innerText = `Balance: $${wallet}`
+    document.querySelector('#chip25Over28').style.opacity = 100
+    option25Over28Click++
+  }
+})
+
+const optionTwentySixOverTwentyNine = document.querySelector('#twentySixOverTwentyNine')
+optionTwentySixOverTwentyNine.addEventListener('click', ()=>{
+  if (wallet > 4) {
+    console.log("twentySixOverTwentyNine was clicked");
+    totalBet += 5
+    document.querySelector('#totalBet').innerText = `Total Bet: $${totalBet}`
+    wallet -= 5
+    document.querySelector('#balance').innerText = `Balance: $${wallet}`
+    document.querySelector('#chip26Over29').style.opacity = 100
+    option26Over29Click++
+  }
+})
+
+const optionTwentySevenOverThirty = document.querySelector('#twentySevenOverThirty')
+optionTwentySevenOverThirty.addEventListener('click', ()=>{
+  if (wallet > 4) {
+    console.log("twentySevenOverThirty was clicked");
+    totalBet += 5
+    document.querySelector('#totalBet').innerText = `Total Bet: $${totalBet}`
+    wallet -= 5
+    document.querySelector('#balance').innerText = `Balance: $${wallet}`
+    document.querySelector('#chip27Over30').style.opacity = 100
+    option27Over30Click++
+  }
+})
+
+const optionTwentyEightOverThirtyOne = document.querySelector('#twentyEightOverThirtyOne')
+optionTwentyEightOverThirtyOne.addEventListener('click', ()=>{
+  if (wallet > 4) {
+    console.log("twentyEightOverThirtyOne was clicked");
+    totalBet += 5
+    document.querySelector('#totalBet').innerText = `Total Bet: $${totalBet}`
+    wallet -= 5
+    document.querySelector('#balance').innerText = `Balance: $${wallet}`
+    document.querySelector('#chip28Over31').style.opacity = 100
+    option28Over31Click++
+  }
+})
+
+const optionTwentyNineOverThirtyTwo = document.querySelector('#twentyNineOverThirtyTwo')
+optionTwentyNineOverThirtyTwo.addEventListener('click', ()=>{
+  if (wallet > 4) {
+    console.log("twentyNineOverThirtyTwo was clicked");
+    totalBet += 5
+    document.querySelector('#totalBet').innerText = `Total Bet: $${totalBet}`
+    wallet -= 5
+    document.querySelector('#balance').innerText = `Balance: $${wallet}`
+    document.querySelector('#chip29Over32').style.opacity = 100
+    option29Over32Click++
+  }
+})
+
+const optionThirtyOverThirtyThree = document.querySelector('#thirtyOverThirtyThree')
+optionThirtyOverThirtyThree.addEventListener('click', ()=>{
+  if (wallet > 4) {
+    console.log("thirtyOverThirtyThree was clicked");
+    totalBet += 5
+    document.querySelector('#totalBet').innerText = `Total Bet: $${totalBet}`
+    wallet -= 5
+    document.querySelector('#balance').innerText = `Balance: $${wallet}`
+    document.querySelector('#chip30Over33').style.opacity = 100
+    option30Over33Click++
+  }
+})
+
+const optionThirtyOneOverThirtyFour = document.querySelector('#thirtyOneOverThirtyFour')
+optionThirtyOneOverThirtyFour.addEventListener('click', ()=>{
+  if (wallet > 4) {
+    console.log("thirtyOneOverThirtyFour was clicked");
+    totalBet += 5
+    document.querySelector('#totalBet').innerText = `Total Bet: $${totalBet}`
+    wallet -= 5
+    document.querySelector('#balance').innerText = `Balance: $${wallet}`
+    document.querySelector('#chip31Over34').style.opacity = 100
+    option31Over34Click++
+  }
+})
+
+const optionThirtyTwoOverThirtyFive = document.querySelector('#thirtyTwoOverThirtyFive')
+optionThirtyTwoOverThirtyFive.addEventListener('click', ()=>{
+  if (wallet > 4) {
+    console.log("thirtyTwoOverThirtyFive was clicked");
+    totalBet += 5
+    document.querySelector('#totalBet').innerText = `Total Bet: $${totalBet}`
+    wallet -= 5
+    document.querySelector('#balance').innerText = `Balance: $${wallet}`
+    document.querySelector('#chip32Over35').style.opacity = 100
+    option32Over35Click++
+  }
+})
+
+const optionThirtyThreeOverThirtySix = document.querySelector('#thirtyThreeOverThirtySix')
+optionThirtyThreeOverThirtySix.addEventListener('click', ()=>{
+  if (wallet > 4) {
+    console.log("thirtyThreeOverThirtySix was clicked");
+    totalBet += 5
+    document.querySelector('#totalBet').innerText = `Total Bet: $${totalBet}`
+    wallet -= 5
+    document.querySelector('#balance').innerText = `Balance: $${wallet}`
+    document.querySelector('#chip33Over36').style.opacity = 100
+    option33Over36Click++
+  }
+})
+
 ///////// ADD ALL option**WinningAmounts /////////////
 // const totalWinningAmount = option1WinningAmount + option2WinningAmount
 //
@@ -1888,6 +2480,40 @@ spin.addEventListener('click', ()=>{
   option29to33WinningAmount = 0
   option31to35WinningAmount = 0
   option32to36WinningAmount = 0
+  option1Over4WinningAmount = 0
+  option2Over5WinningAmount = 0
+  option3Over6WinningAmount = 0
+  option4Over7WinningAmount = 0
+  option5Over8WinningAmount = 0
+  option6Over9WinningAmount = 0
+  option7Over10WinningAmount = 0
+  option8Over11WinningAmount = 0
+  option9Over12WinningAmount = 0
+  option10Over13WinningAmount = 0
+  option11Over14WinningAmount = 0
+  option12Over15WinningAmount = 0
+  option13Over16WinningAmount = 0
+  option14Over17WinningAmount = 0
+  option15Over18WinningAmount = 0
+  option16Over19WinningAmount = 0
+  option17Over20WinningAmount = 0
+  option18Over21WinningAmount = 0
+  option19Over22WinningAmount = 0
+  option20Over23WinningAmount = 0
+  option21Over24WinningAmount = 0
+  option22Over25WinningAmount = 0
+  option23Over26WinningAmount = 0
+  option24Over27WinningAmount = 0
+  option25Over28WinningAmount = 0
+  option26Over29WinningAmount = 0
+  option27Over30WinningAmount = 0
+  option28Over31WinningAmount = 0
+  option29Over32WinningAmount = 0
+  option30Over33WinningAmount = 0
+  option31Over34WinningAmount = 0
+  option32Over35WinningAmount = 0
+  option33Over36WinningAmount = 0
+
 //
   let randomNumber = Math.floor(Math.random() * 37)
   alert(`LUCKY NUMBER: ${randomNumber}`);
@@ -2114,80 +2740,80 @@ spin.addEventListener('click', ()=>{
     /////// 2To1Button Winners ///////////
     // ONE
     if (randomNumber === 1) {
-      option2To1OneWinningAmount += option2To1OneClick * 5 * 35
+      option2To1OneWinningAmount += option2To1OneClick * 5 * 2
     } else {
       option2To1OneWinningAmount -= option2To1OneClick * 5
     }
 
     if (randomNumber === 4) {
-      option2To1OneWinningAmount += option2To1OneClick * 5 * 35
+      option2To1OneWinningAmount += option2To1OneClick * 5 * 2
     } else {
       option2To1OneWinningAmount -= option2To1OneClick * 5
     }
 
     if (randomNumber === 7) {
-      option2To1OneWinningAmount += option2To1OneClick * 5 * 35
+      option2To1OneWinningAmount += option2To1OneClick * 5 * 2
     } else {
       option2To1OneWinningAmount -= option2To1OneClick * 5
     }
 
     if (randomNumber === 10) {
-      option2To1OneWinningAmount += option2To1OneClick * 5 * 35
+      option2To1OneWinningAmount += option2To1OneClick * 5 * 2
     } else {
       option2To1OneWinningAmount -= option2To1OneClick * 5
     }
 
     if (randomNumber === 13) {
-      option2To1OneWinningAmount += option2To1OneClick * 5 * 35
+      option2To1OneWinningAmount += option2To1OneClick * 5 * 2
     } else {
       option2To1OneWinningAmount -= option2To1OneClick * 5
     }
 
     if (randomNumber === 16) {
-      option2To1OneWinningAmount += option2To1OneClick * 5 * 35
+      option2To1OneWinningAmount += option2To1OneClick * 5 * 2
     } else {
       option2To1OneWinningAmount -= option2To1OneClick * 5
     }
 
     if (randomNumber === 19) {
-      option2To1OneWinningAmount += option2To1OneClick * 5 * 35
+      option2To1OneWinningAmount += option2To1OneClick * 5 * 2
     } else {
       option2To1OneWinningAmount -= option2To1OneClick * 5
     }
 
     if (randomNumber === 22) {
-      option2To1OneWinningAmount += option2To1OneClick * 5 * 35
+      option2To1OneWinningAmount += option2To1OneClick * 5 * 2
     } else {
       option2To1OneWinningAmount -= option2To1OneClick * 5
     }
 
     if (randomNumber === 25) {
-      option2To1OneWinningAmount += option2To1OneClick * 5 * 35
+      option2To1OneWinningAmount += option2To1OneClick * 5 * 2
     } else {
       option2To1OneWinningAmount -= option2To1OneClick * 5
     }
 
     if (randomNumber === 28) {
-      option2To1OneWinningAmount += option2To1OneClick * 5 * 35
+      option2To1OneWinningAmount += option2To1OneClick * 5 * 2
     } else {
       option2To1OneWinningAmount -= option2To1OneClick * 5
     }
 
     if (randomNumber === 31) {
-      option2To1OneWinningAmount += option2To1OneClick * 5 * 35
+      option2To1OneWinningAmount += option2To1OneClick * 5 * 2
     } else {
       option2To1OneWinningAmount -= option2To1OneClick * 5
     }
 
     if (randomNumber === 34) {
-      option2To1OneWinningAmount += option2To1OneClick * 5 * 35
+      option2To1OneWinningAmount += option2To1OneClick * 5 * 2
     } else {
       option2To1OneWinningAmount -= option2To1OneClick * 5
     }
 
     // TWO
     if (randomNumber === 2) {
-      option2To1TwoWinningAmount += option2To1TwoClick * 5 * 35
+      option2To1TwoWinningAmount += option2To1TwoClick * 5 * 2
     } else {
       option2To1TwoWinningAmount -= option2To1TwoClick * 5
     }
@@ -2199,134 +2825,134 @@ spin.addEventListener('click', ()=>{
     }
 
     if (randomNumber === 8) {
-      option2To1TwoWinningAmount += option2To1TwoClick * 5 * 35
+      option2To1TwoWinningAmount += option2To1TwoClick * 5 * 2
     } else {
       option2To1TwoWinningAmount -= option2To1TwoClick * 5
     }
 
     if (randomNumber === 11) {
-      option2To1TwoWinningAmount += option2To1TwoClick * 5 * 35
+      option2To1TwoWinningAmount += option2To1TwoClick * 5 * 2
     } else {
       option2To1TwoWinningAmount -= option2To1TwoClick * 5
     }
 
     if (randomNumber === 14) {
-      option2To1TwoWinningAmount += option2To1TwoClick * 5 * 35
+      option2To1TwoWinningAmount += option2To1TwoClick * 5 * 2
     } else {
       option2To1TwoWinningAmount -= option2To1TwoClick * 5
     }
 
     if (randomNumber === 17) {
-      option2To1TwoWinningAmount += option2To1TwoClick * 5 * 35
+      option2To1TwoWinningAmount += option2To1TwoClick * 5 * 2
     } else {
       option2To1TwoWinningAmount -= option2To1TwoClick * 5
     }
 
     if (randomNumber === 20) {
-      option2To1TwoWinningAmount += option2To1TwoClick * 5 * 35
+      option2To1TwoWinningAmount += option2To1TwoClick * 5 * 2
     } else {
       option2To1TwoWinningAmount -= option2To1TwoClick * 5
     }
 
     if (randomNumber === 23) {
-      option2To1TwoWinningAmount += option2To1TwoClick * 5 * 35
+      option2To1TwoWinningAmount += option2To1TwoClick * 5 * 2
     } else {
       option2To1TwoWinningAmount -= option2To1TwoClick * 5
     }
 
     if (randomNumber === 26) {
-      option2To1TwoWinningAmount += option2To1TwoClick * 5 * 35
+      option2To1TwoWinningAmount += option2To1TwoClick * 5 * 2
     } else {
       option2To1TwoWinningAmount -= option2To1TwoClick * 5
     }
 
     if (randomNumber === 29) {
-      option2To1TwoWinningAmount += option2To1TwoClick * 5 * 35
+      option2To1TwoWinningAmount += option2To1TwoClick * 5 * 2
     } else {
       option2To1TwoWinningAmount -= option2To1TwoClick * 5
     }
 
     if (randomNumber === 32) {
-      option2To1TwoWinningAmount += option2To1TwoClick * 5 * 35
+      option2To1TwoWinningAmount += option2To1TwoClick * 5 * 2
     } else {
       option2To1TwoWinningAmount -= option2To1TwoClick * 5
     }
 
     if (randomNumber === 35) {
-      option2To1TwoWinningAmount += option2To1TwoClick * 5 * 35
+      option2To1TwoWinningAmount += option2To1TwoClick * 5 * 2
     } else {
       option2To1TwoWinningAmount -= option2To1TwoClick * 5
     }
 
     //THREE
     if (randomNumber === 3) {
-      option2To1ThreeWinningAmount += option2To1ThreeClick * 5 * 35
+      option2To1ThreeWinningAmount += option2To1ThreeClick * 5 * 2
     } else {
       option2To1ThreeWinningAmount -= option2To1ThreeClick * 5
     }
 
     if (randomNumber === 6) {
-      option2To1ThreeWinningAmount += option2To1ThreeClick * 5 * 35
+      option2To1ThreeWinningAmount += option2To1ThreeClick * 5 * 2
     } else {
       option2To1ThreeWinningAmount -= option2To1ThreeClick * 5
     }
 
     if (randomNumber === 9) {
-      option2To1ThreeWinningAmount += option2To1ThreeClick * 5 * 35
+      option2To1ThreeWinningAmount += option2To1ThreeClick * 5 * 2
     } else {
       option2To1ThreeWinningAmount -= option2To1ThreeClick * 5
     }
 
     if (randomNumber === 12) {
-      option2To1ThreeWinningAmount += option2To1ThreeClick * 5 * 35
+      option2To1ThreeWinningAmount += option2To1ThreeClick * 5 * 2
     } else {
       option2To1ThreeWinningAmount -= option2To1ThreeClick * 5
     }
 
     if (randomNumber === 15) {
-      option2To1ThreeWinningAmount += option2To1ThreeClick * 5 * 35
+      option2To1ThreeWinningAmount += option2To1ThreeClick * 5 * 2
     } else {
       option2To1ThreeWinningAmount -= option2To1ThreeClick * 5
     }
 
     if (randomNumber === 18) {
-      option2To1ThreeWinningAmount += option2To1ThreeClick * 5 * 35
+      option2To1ThreeWinningAmount += option2To1ThreeClick * 5 * 2
     } else {
       option2To1ThreeWinningAmount -= option2To1ThreeClick * 5
     }
 
     if (randomNumber === 21) {
-      option2To1ThreeWinningAmount += option2To1ThreeClick * 5 * 35
+      option2To1ThreeWinningAmount += option2To1ThreeClick * 5 * 2
     } else {
       option2To1ThreeWinningAmount -= option2To1ThreeClick * 5
     }
 
     if (randomNumber === 24) {
-      option2To1ThreeWinningAmount += option2To1ThreeClick * 5 * 35
+      option2To1ThreeWinningAmount += option2To1ThreeClick * 5 * 2
     } else {
       option2To1ThreeWinningAmount -= option2To1ThreeClick * 5
     }
 
     if (randomNumber === 27) {
-      option2To1ThreeWinningAmount += option2To1ThreeClick * 5 * 35
+      option2To1ThreeWinningAmount += option2To1ThreeClick * 5 * 2
     } else {
       option2To1ThreeWinningAmount -= option2To1ThreeClick * 5
     }
 
     if (randomNumber === 30) {
-      option2To1ThreeWinningAmount += option2To1ThreeClick * 5 * 35
+      option2To1ThreeWinningAmount += option2To1ThreeClick * 5 * 2
     } else {
       option2To1ThreeWinningAmount -= option2To1ThreeClick * 5
     }
 
     if (randomNumber === 33) {
-      option2To1ThreeWinningAmount += option2To1ThreeClick * 5 * 35
+      option2To1ThreeWinningAmount += option2To1ThreeClick * 5 * 2
     } else {
       option2To1ThreeWinningAmount -= option2To1ThreeClick * 5
     }
 
     if (randomNumber === 36) {
-      option2To1ThreeWinningAmount += option2To1ThreeClick * 5 * 35
+      option2To1ThreeWinningAmount += option2To1ThreeClick * 5 * 2
     } else {
       option2To1ThreeWinningAmount -= option2To1ThreeClick * 5
     }
@@ -2334,33 +2960,33 @@ spin.addEventListener('click', ()=>{
 
     /////1st12 - 3rd12 Buttons Winners /////////////
     if (randomNumber === 1 || randomNumber === 2 || randomNumber === 3 || randomNumber === 4 || randomNumber === 5 || randomNumber === 6 || randomNumber === 7 || randomNumber === 8 || randomNumber === 9 || randomNumber === 10 || randomNumber === 11 || randomNumber === 12) {
-      option1st12WinningAmount += option1st12Click * 5 * 35
+      option1st12WinningAmount += option1st12Click * 5 * 2
     } else {
       option1st12WinningAmount -= option1st12Click * 5
     }
 
     if (randomNumber === 13 || randomNumber === 14 || randomNumber === 15 || randomNumber === 16 || randomNumber === 17 || randomNumber === 18 || randomNumber === 19 || randomNumber === 20 || randomNumber === 21 || randomNumber === 22 || randomNumber === 23 || randomNumber === 24) {
-      option2nd12WinningAmount += option2nd12Click * 5 * 35
+      option2nd12WinningAmount += option2nd12Click * 5 * 2
     } else {
       option2nd12WinningAmount -= option2nd12Click * 5
     }
 
     if (randomNumber === 25 || randomNumber === 26 || randomNumber === 27 || randomNumber === 28 || randomNumber === 29 || randomNumber === 30 || randomNumber === 31 || randomNumber === 32 || randomNumber === 33 || randomNumber === 34 || randomNumber === 35 || randomNumber === 36) {
-      option3rd12WinningAmount += option3rd12Click * 5 * 35
+      option3rd12WinningAmount += option3rd12Click * 5 * 2
     } else {
       option3rd12WinningAmount -= option3rd12Click * 5
     }
     ///////// ColorButton Winners /////////////
     //RED
     if (randomNumber === 2 || randomNumber === 4 || randomNumber === 6 || randomNumber === 8 || randomNumber === 10 || randomNumber === 12 || randomNumber === 14 || randomNumber === 16 || randomNumber === 18 || randomNumber === 20 || randomNumber === 22 || randomNumber === 24 || randomNumber === 26 || randomNumber === 28 || randomNumber === 30 || randomNumber === 32 || randomNumber === 34 || randomNumber === 36) {
-      optionRedWinningAmount += optionRedClick * 5 * 35
+      optionRedWinningAmount += optionRedClick * 5 * 1
     } else {
       optionRedWinningAmount -= optionRedClick * 5
     }
 
     //BLACK
     if (randomNumber === 1 || randomNumber === 3 || randomNumber === 5 || randomNumber === 7 || randomNumber === 9 || randomNumber === 11 || randomNumber === 13 || randomNumber === 15 || randomNumber === 17 || randomNumber === 19 || randomNumber === 21 || randomNumber === 23 || randomNumber === 25 || randomNumber === 27 || randomNumber === 29 || randomNumber === 31 || randomNumber === 33 || randomNumber === 35) {
-      optionBlackWinningAmount += optionBlackClick * 5 * 35
+      optionBlackWinningAmount += optionBlackClick * 5 * 1
     } else {
       optionBlackWinningAmount -= optionBlackClick * 5
     }
@@ -2369,14 +2995,14 @@ spin.addEventListener('click', ()=>{
     ///////// Even/Odd Winners ///////////////
     //EVEN
     if (randomNumber === 0 || randomNumber === 2 || randomNumber === 4 || randomNumber === 6 || randomNumber === 8 || randomNumber === 10 || randomNumber === 12 || randomNumber === 14 || randomNumber === 16 || randomNumber === 18 || randomNumber === 20 || randomNumber === 22 || randomNumber === 24 || randomNumber === 26 || randomNumber === 28 || randomNumber === 30 || randomNumber === 32 || randomNumber === 34 || randomNumber === 36) {
-      optionEvenWinningAmount += optionEvenClick * 5 * 35
+      optionEvenWinningAmount += optionEvenClick * 5 * 1
     } else {
       optionEvenWinningAmount -= optionEvenClick * 5
     }
 
     //ODD
     if (randomNumber === 1 || randomNumber === 3 || randomNumber === 5 || randomNumber === 7 || randomNumber === 9 || randomNumber === 11 || randomNumber === 13 || randomNumber === 15 || randomNumber === 17 || randomNumber === 19 || randomNumber === 21 || randomNumber === 23 || randomNumber === 25 || randomNumber === 27 || randomNumber === 29 || randomNumber === 31 || randomNumber === 33 || randomNumber === 35) {
-      optionOddWinningAmount += optionOddClick * 5 * 35
+      optionOddWinningAmount += optionOddClick * 5 * 1
     } else {
       optionOddWinningAmount -= optionOddClick * 5
     }
@@ -2385,13 +3011,13 @@ spin.addEventListener('click', ()=>{
 
     ////////// 1To18 & 19To36 Winners //////////////
     if (randomNumber === 1 || randomNumber === 2 || randomNumber === 3 || randomNumber === 4 || randomNumber === 5 || randomNumber === 6 || randomNumber === 7 || randomNumber === 8 || randomNumber === 9 || randomNumber === 10 || randomNumber === 11 || randomNumber === 12 || randomNumber === 13 || randomNumber === 14 || randomNumber === 15 || randomNumber === 16 || randomNumber === 17 || randomNumber === 18) {
-      option1To18WinningAmount += option1To18Click * 5 * 35
+      option1To18WinningAmount += option1To18Click * 5 * 1
     } else {
       option1To18WinningAmount -= option1To18Click * 5
     }
 
     if (randomNumber === 19 || randomNumber === 20 || randomNumber === 21 || randomNumber === 22 || randomNumber === 23 || randomNumber === 24 || randomNumber === 25 || randomNumber === 26 || randomNumber === 27 || randomNumber === 28 || randomNumber === 29 || randomNumber === 30 || randomNumber === 31 || randomNumber === 32 || randomNumber === 33 || randomNumber === 34 || randomNumber === 35 || randomNumber === 36) {
-      option19To36WinningAmount += option19To36Click * 5 * 35
+      option19To36WinningAmount += option19To36Click * 5 * 1
     } else {
       option19To36WinningAmount -= option19To36Click * 5
     }
@@ -2400,133 +3026,133 @@ spin.addEventListener('click', ()=>{
     ///////// Middle/CornerButton Winners ///////////////
 
     if (randomNumber === 1 || randomNumber === 2 || randomNumber === 4|| randomNumber === 5) {
-      option1to5WinningAmount += option1to5Click * 5 * 35
+      option1to5WinningAmount += option1to5Click * 5 * 8
     } else {
       option1to5WinningAmount -= option1to5Click * 5
     }
 
     if (randomNumber === 2 || randomNumber === 3 || randomNumber === 5|| randomNumber === 6) {
-      option2to6WinningAmount += option2to6Click * 5 * 35
+      option2to6WinningAmount += option2to6Click * 5 * 8
     } else {
       option2to6WinningAmount -= option2to6Click * 5
     }
 
     if (randomNumber === 4 || randomNumber === 5 || randomNumber === 7|| randomNumber === 8) {
-      option4to8WinningAmount += option4to8Click * 5 * 35
+      option4to8WinningAmount += option4to8Click * 5 * 8
     } else {
       option4to8WinningAmount -= option4to8Click * 5
     }
 
     if (randomNumber === 5 || randomNumber === 6 || randomNumber === 8|| randomNumber === 9) {
-      option5to9WinningAmount += option5to9Click * 5 * 35
+      option5to9WinningAmount += option5to9Click * 5 * 8
     } else {
       option5to9WinningAmount -= option5to9Click * 5
     }
 
     if (randomNumber === 7 || randomNumber === 8 || randomNumber === 10|| randomNumber === 11) {
-      option7to11WinningAmount += option7to11Click * 5 * 35
+      option7to11WinningAmount += option7to11Click * 5 * 8
     } else {
       option7to11WinningAmount -= option7to11Click * 5
     }
 
     if (randomNumber === 8 || randomNumber === 9 || randomNumber === 11|| randomNumber === 12) {
-      option8to12WinningAmount += option8to12Click * 5 * 35
+      option8to12WinningAmount += option8to12Click * 5 * 8
     } else {
       option8to12WinningAmount -= option8to12Click * 5
     }
 
     if (randomNumber === 10 || randomNumber === 11 || randomNumber === 13|| randomNumber === 14) {
-      option10to14WinningAmount += option10to14Click * 5 * 35
+      option10to14WinningAmount += option10to14Click * 5 * 8
     } else {
       option10to14WinningAmount -= option10to14Click * 5
     }
 
     if (randomNumber === 11 || randomNumber === 12 || randomNumber === 14|| randomNumber === 15) {
-      option11to15WinningAmount += option11to15Click * 5 * 35
+      option11to15WinningAmount += option11to15Click * 5 * 8
     } else {
       option11to15WinningAmount -= option11to15Click * 5
     }
 
     if (randomNumber === 13 || randomNumber === 14 || randomNumber === 16|| randomNumber === 17) {
-      option13to17WinningAmount += option13to17Click * 5 * 35
+      option13to17WinningAmount += option13to17Click * 5 * 8
     } else {
       option13to17WinningAmount -= option13to17Click * 5
     }
 
     if (randomNumber === 14 || randomNumber === 15 || randomNumber === 17|| randomNumber === 18) {
-      option14to18WinningAmount += option14to18Click * 5 * 35
+      option14to18WinningAmount += option14to18Click * 5 * 8
     } else {
       option14to18WinningAmount -= option14to18Click * 5
     }
 
     if (randomNumber === 16 || randomNumber === 17 || randomNumber === 19|| randomNumber === 20) {
-      option16to20WinningAmount += option16to20Click * 5 * 35
+      option16to20WinningAmount += option16to20Click * 5 * 8
     } else {
       option16to20WinningAmount -= option16to20Click * 5
     }
 
     if (randomNumber === 17 || randomNumber === 18 || randomNumber === 20|| randomNumber === 21) {
-      option17to21WinningAmount += option17to21Click * 5 * 35
+      option17to21WinningAmount += option17to21Click * 5 * 8
     } else {
       option17to21WinningAmount -= option17to21Click * 5
     }
 
     if (randomNumber === 19 || randomNumber === 20 || randomNumber === 22|| randomNumber === 23) {
-      option19to23WinningAmount += option19to23Click * 5 * 35
+      option19to23WinningAmount += option19to23Click * 5 * 8
     } else {
       option19to23WinningAmount -= option19to23Click * 5
     }
 
     if (randomNumber === 20 || randomNumber === 21 || randomNumber === 23|| randomNumber === 24) {
-      option20to24WinningAmount += option20to24Click* 5 * 35
+      option20to24WinningAmount += option20to24Click* 5 * 8
     } else {
       option20to24WinningAmount -= option20to24Click * 5
     }
 
     if (randomNumber === 22 || randomNumber === 23 || randomNumber === 25|| randomNumber === 26) {
-      option22to26WinningAmount += option22to26Click * 5 * 35
+      option22to26WinningAmount += option22to26Click * 5 * 8
     } else {
       option22to26WinningAmount -= option22to26Click * 5
     }
 
     if (randomNumber === 23 || randomNumber === 24 || randomNumber === 26|| randomNumber === 27) {
-      option23to27WinningAmount += option23to27Click * 5 * 35
+      option23to27WinningAmount += option23to27Click * 5 * 8
     } else {
       option23to27WinningAmount -= option23to27Click * 5
     }
 
     if (randomNumber === 25 || randomNumber === 26 || randomNumber === 28|| randomNumber === 29) {
-      option25to29WinningAmount += option25to29Click * 5 * 35
+      option25to29WinningAmount += option25to29Click * 5 * 8
     } else {
       option25to29WinningAmount -= option25to29Click * 5
     }
 
     if (randomNumber === 26 || randomNumber === 27 || randomNumber === 29|| randomNumber === 30) {
-      option26to30WinningAmount += option26to30Click * 5 * 35
+      option26to30WinningAmount += option26to30Click * 5 * 8
     } else {
       option26to30WinningAmount -= option26to30Click * 5
     }
 
     if (randomNumber === 28 || randomNumber === 29 || randomNumber === 31|| randomNumber === 32) {
-      option28to32WinningAmount += option28to32Click * 5 * 35
+      option28to32WinningAmount += option28to32Click * 5 * 8
     } else {
       option28to32WinningAmount -= option28to32Click * 5
     }
 
     if (randomNumber === 29 || randomNumber === 30 || randomNumber === 32|| randomNumber === 33) {
-      option29to33WinningAmount += option29to33Click * 5 * 35
+      option29to33WinningAmount += option29to33Click * 5 * 8
     } else {
       option29to33WinningAmount -= option29to33Click * 5
     }
 
     if (randomNumber === 31 || randomNumber === 32 || randomNumber === 34|| randomNumber === 35) {
-      option31to35WinningAmount += option31to35Click * 5 * 35
+      option31to35WinningAmount += option31to35Click * 5 * 8
     } else {
       option31to35WinningAmount -= option31to35Click * 5
     }
 
     if (randomNumber === 32 || randomNumber === 33 || randomNumber === 35|| randomNumber === 36) {
-      option32to36WinningAmount += option32to36Click * 5 * 35
+      option32to36WinningAmount += option32to36Click * 5 * 8
     } else {
       option32to36WinningAmount -= option32to36Click * 5
     }
@@ -2678,7 +3304,205 @@ spin.addEventListener('click', ()=>{
     }
 
 
+    // columnButtons
 
+    if (randomNumber === 1 || randomNumber === 4) {
+      option1Over4WinningAmount += option1Over4Click * 5 * 17
+    } else {
+      option1Over4WinningAmount -= option1Over4Click * 5
+    }
+
+    if (randomNumber === 2 || randomNumber === 5) {
+      option2Over5WinningAmount += option2Over5Click * 5 * 17
+    } else {
+      option2Over5WinningAmount -= option2Over5Click * 5
+    }
+
+    if (randomNumber === 3 || randomNumber === 6) {
+      option3Over6WinningAmount += option3Over6Click * 5 * 17
+    } else {
+      option3Over6WinningAmount -= option3Over6Click * 5
+    }
+
+    if (randomNumber === 4 || randomNumber === 7) {
+      option4Over7WinningAmount += option4Over7Click * 5 * 17
+    } else {
+      option4Over7WinningAmount -= option4Over7Click * 5
+    }
+
+    if (randomNumber === 5 || randomNumber === 8) {
+      option5Over8WinningAmount += option5Over8Click * 5 * 17
+    } else {
+      option5Over8WinningAmount -= option5Over8Click * 5
+    }
+
+    if (randomNumber === 6 || randomNumber === 9) {
+      option6Over9WinningAmount += option6Over9Click * 5 * 17
+    } else {
+      option6Over9WinningAmount -= option6Over9Click * 5
+    }
+
+    if (randomNumber === 7 || randomNumber === 10) {
+      option7Over10WinningAmount += option7Over10Click * 5 * 17
+    } else {
+      option7Over10WinningAmount -= option7Over10Click * 5
+    }
+
+    if (randomNumber === 8 || randomNumber === 11) {
+      option8Over11WinningAmount += option8Over11Click * 5 * 17
+    } else {
+      option8Over11WinningAmount -= option8Over11Click * 5
+    }
+
+    if (randomNumber === 9 || randomNumber === 12) {
+      option9Over12WinningAmount += option9Over12Click * 5 * 17
+    } else {
+      option9Over12WinningAmount -= option9Over12Click * 5
+    }
+
+    if (randomNumber === 10 || randomNumber === 13) {
+      option10Over13WinningAmount += option10Over13Click * 5 * 17
+    } else {
+      option10Over13WinningAmount -= option10Over13Click * 5
+    }
+
+    if (randomNumber === 11 || randomNumber === 14) {
+      option11Over14WinningAmount += option11Over14Click * 5 * 17
+    } else {
+      option11Over14WinningAmount -= option11Over14Click * 5
+    }
+
+    if (randomNumber === 12 || randomNumber === 15) {
+      option12Over15WinningAmount += option12Over15Click * 5 * 17
+    } else {
+      option12Over15WinningAmount -= option12Over15Click * 5
+    }
+
+    if (randomNumber === 13 || randomNumber === 16) {
+      option13Over16WinningAmount += option13Over16Click * 5 * 17
+    } else {
+      option13Over16WinningAmount -= option13Over16Click * 5
+    }
+
+    if (randomNumber === 14 || randomNumber === 17) {
+      option14Over17WinningAmount += option14Over17Click * 5 * 17
+    } else {
+      option14Over17WinningAmount -= option14Over17Click * 5
+    }
+
+    if (randomNumber === 15 || randomNumber === 18) {
+      option15Over18WinningAmount += option15Over18Click * 5 * 17
+    } else {
+      option15Over18WinningAmount -= option15Over18Click * 5
+    }
+
+    if (randomNumber === 16 || randomNumber === 19) {
+      option16Over19WinningAmount += option16Over19Click * 5 * 17
+    } else {
+      option16Over19WinningAmount -= option16Over19Click * 5
+    }
+
+    if (randomNumber === 17 || randomNumber === 20) {
+      option17Over20WinningAmount += option17Over20Click * 5 * 17
+    } else {
+      option17Over20WinningAmount -= option17Over20Click * 5
+    }
+
+    if (randomNumber === 18 || randomNumber === 21) {
+      option18Over21WinningAmount += option18Over21Click * 5 * 17
+    } else {
+      option18Over21WinningAmount -= option18Over21Click * 5
+    }
+
+    if (randomNumber === 19 || randomNumber === 22) {
+      option19Over22WinningAmount += option19Over22Click * 5 * 17
+    } else {
+      option19Over22WinningAmount -= option19Over22Click * 5
+    }
+
+    if (randomNumber === 20 || randomNumber === 23) {
+      option20Over23WinningAmount += option20Over23Click * 5 * 17
+    } else {
+      option20Over23WinningAmount -= option20Over23Click * 5
+    }
+
+    if (randomNumber === 21 || randomNumber === 24) {
+      option21Over24WinningAmount += option21Over24Click * 5 * 17
+    } else {
+      option21Over24WinningAmount -= option21Over24Click * 5
+    }
+
+    if (randomNumber === 22 || randomNumber === 25) {
+      option22Over25WinningAmount += option22Over25Click * 5 * 17
+    } else {
+      option22Over25WinningAmount -= option22Over25Click * 5
+    }
+
+    if (randomNumber === 23 || randomNumber === 26) {
+      option23Over26WinningAmount += option23Over26Click * 5 * 17
+    } else {
+      option23Over26WinningAmount -= option23Over26Click * 5
+    }
+
+    if (randomNumber === 24 || randomNumber === 27) {
+      option24Over27WinningAmount += option24Over27Click * 5 * 17
+    } else {
+      option24Over27WinningAmount -= option24Over27Click * 5
+    }
+
+    if (randomNumber === 25 || randomNumber === 28) {
+      option25Over28WinningAmount += option25Over28Click * 5 * 17
+    } else {
+      option25Over28WinningAmount -= option25Over28Click * 5
+    }
+
+    if (randomNumber === 26 || randomNumber === 29) {
+      option26Over29WinningAmount += option26Over29Click * 5 * 17
+    } else {
+      option26Over29WinningAmount -= option26Over29Click * 5
+    }
+
+    if (randomNumber === 27 || randomNumber === 30) {
+      option27Over30WinningAmount += option27Over30Click * 5 * 17
+    } else {
+      option27Over30WinningAmount -= option27Over30Click * 5
+    }
+
+    if (randomNumber === 28 || randomNumber === 31) {
+      option28Over31WinningAmount += option28Over31Click * 5 * 17
+    } else {
+      option28Over31WinningAmount -= option28Over31Click * 5
+    }
+
+    if (randomNumber === 29 || randomNumber === 32) {
+      option29Over32WinningAmount += option29Over32Click * 5 * 17
+    } else {
+      option29Over32WinningAmount -= option29Over32Click * 5
+    }
+
+    if (randomNumber === 30 || randomNumber === 33) {
+      option30Over33WinningAmount += option30Over33Click * 5 * 17
+    } else {
+      option30Over33WinningAmount -= option30Over33Click * 5
+    }
+
+    if (randomNumber === 31 || randomNumber === 34) {
+      option31Over34WinningAmount += option31Over34Click * 5 * 17
+    } else {
+      option31Over34WinningAmount -= option31Over34Click * 5
+    }
+
+    if (randomNumber === 32 || randomNumber === 35) {
+      option32Over35WinningAmount += option32Over35Click * 5 * 17
+    } else {
+      option32Over35WinningAmount -= option32Over35Click * 5
+    }
+
+    if (randomNumber === 33 || randomNumber === 36) {
+      option33Over36WinningAmount += option33Over36Click * 5 * 17
+    } else {
+      option33Over36WinningAmount -= option33Over36Click * 5
+    }
 
 
 
@@ -2759,17 +3583,56 @@ spin.addEventListener('click', ()=>{
   + option29to33WinningAmount
   + option31to35WinningAmount
   + option32to36WinningAmount
+  + option1Over4WinningAmount
+  + option2Over5WinningAmount
+  + option3Over6WinningAmount
+  + option4Over7WinningAmount
+  + option5Over8WinningAmount
+  + option6Over9WinningAmount
+  + option7Over10WinningAmount
+  + option8Over11WinningAmount
+  + option9Over12WinningAmount
+  + option10Over13WinningAmount
+  + option11Over14WinningAmount
+  + option12Over15WinningAmount
+  + option13Over16WinningAmount
+  + option14Over17WinningAmount
+  + option15Over18WinningAmount
+  + option16Over19WinningAmount
+  + option17Over20WinningAmount
+  + option18Over21WinningAmount
+  + option19Over22WinningAmount
+  + option20Over23WinningAmount
+  + option21Over24WinningAmount
+  + option22Over25WinningAmount
+  + option23Over26WinningAmount
+  + option24Over27WinningAmount
+  + option25Over28WinningAmount
+  + option26Over29WinningAmount
+  + option27Over30WinningAmount
+  + option28Over31WinningAmount
+  + option29Over32WinningAmount
+  + option30Over33WinningAmount
+  + option31Over34WinningAmount
+  + option32Over35WinningAmount
+  + option33Over36WinningAmount
 
 
 
-  document.querySelector('#winningAmount').innerText = `Winning Amount: $${totalWinningAmount}`
-  if (wallet < 5) {
-    document.querySelector('#spinButton').disabled = true
-    alert(`MINIMUM BET AMOUNT IS $5! You have gambled away your money..`)
-  }
+console.log(totalWinningAmount);
 
   wallet = wallet + totalWinningAmount
   document.querySelector('#balance').innerText = `Balance: $${wallet}`
+
+
+  document.querySelector('#winningAmount').innerText = `Winning Amount: $${totalWinningAmount}`
+  console.log(wallet);
+  if (wallet + totalBet > 5) {
+    document.querySelector('#spinButton').disabled = false
+  } else if (wallet < 5) {
+    document.querySelector('#spinButton').disabled = true
+    alert(`MINIMUM BET AMOUNT IS $5! You have gambled away your money..`)
+  }
 })
 
 
