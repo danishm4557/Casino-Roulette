@@ -1,28 +1,30 @@
 body {
     background-color: #1C7022;
-    position: relative;
+    position: absolute;
     margin-bottom: inherit;
-    width: 30%;
+    width: 27%;
 }
 
 header {
-  position: relative;
+  position: absolute;
   width: 1435px;
+  left: -10px;
+  top: -10px;
   background-color: rgb(98,57,27);
   padding: 5px;
   text-align: center;
   font-size: 50px;
   font-family: monospace;
   font-weight: bold;
-  margin: -12px;
+
 }
 
 h1  {
-  position: relative;
+  position: absolute;
   font-size: 70px;
   color: white;
   left: 550px;
-  top: -140px;
+  top: -40px;
   z-index: 2;
   font-family: monospace;
 }
@@ -34,9 +36,9 @@ h1  {
 }
 
 #instructions {
-  position: relative;
+  position: absolute;
   left: 1165px;
-  top: -245px;
+  top: 27px;
   padding: 5px 20px 5px 20px;
   font-size: 25px;
   border: 5px solid #1C7022;
@@ -47,16 +49,16 @@ h1  {
 
 #rouletteTable {
   position: absolute;
-  width: 800px;
-  top: 250px;
-  left: 590px;
+  width: 1025px;
+  top: 150px;
+  left: 405px;
 }
 
 #rouletteWheel {
   position: absolute;
-  top: 225px;
-  left: 40px;
-  width: 500px;
+  top: 230px;
+  left: 5px;
+  width: 425px;
   animation-name: wheelRotate;
   animation-duration: 4s;
   animation-timing-function: linear;
@@ -66,9 +68,9 @@ h1  {
 
 
 #winningAmount {
-  position: relative;
-  top: -218px;
-  left: 335px;
+  position: absolute;
+  top: 110px;
+  left: 355px;
   width: 405px;
   padding: 5px 5px 5px 0px;
   font-size: 25px;
@@ -78,9 +80,9 @@ h1  {
 }
 
 #totalBet {
-  position: relative;
-  top: -278px;
-  left: 780px;
+  position: absolute;
+  top: 110px;
+  left: 760px;
   width: 340px;
   padding: 5px;
   font-size: 25px;
@@ -92,8 +94,8 @@ h1  {
 }
 
 #balance {
-  position: relative;
-  top: -338px;
+  position: absolute;
+  top: 110px;
   left: 1105px;
   width: 310px;
   padding: 5px;
@@ -104,21 +106,22 @@ h1  {
 }
 
 #cashOutButton {
-  position: relative;
+  position: absolute;
   left: 45px;
-  top: 210px;
+  top: 730px;
   padding: 5px 20px 5px 20px;
   font-size: 25px;
   border: 5px solid rgb(98,57,27);
   border-radius: 30%;
   font-family: monospace;
   width: 310px;
+  z-index: 3;
 }
 
 #spinButton {
-  position: relative;
-  right: -950px;
-  top: 150px;
+  position: absolute;
+  left: 1264px;
+  top: 670px;
   padding: 5px 20px 5px 20px;
   font-size: 25px;
   border: 5px solid rgb(98,57,27);
@@ -127,9 +130,9 @@ h1  {
 }
 
 #clearButton {
-  position: relative;
-  right: -1260px;
-  top: 95px;
+  position: absolute;
+  left: 1260px;
+  top: 730px;
   padding: 5px 20px 5px 20px;
   font-size: 25px;
   border: 5px solid rgb(98,57,27);
@@ -137,777 +140,779 @@ h1  {
   font-family: monospace;
 }
 
-#casinoChipsFooter {
-  position: relative;
-  width: 150px;
-  left: 580px;
-  top: 100px;
+
+#casinoChips {
+  position: absolute;
+  top: 710px;
+  left: 700px;
+  width: 80px;
 }
 
+
 #option1 {
-  position: relative;
-  left: 700px;
-  bottom: 223px;
-  width: 10%;
-  height: 45px;
+  position: absolute;
+  left: 550px;
+  top: 440px;
+  width: 47px;
+  height: 60px;
 }
 
 #option2 {
-  position: relative;
-  left: 654px;
-  bottom: 297px;
-  width: 10%;
-  height: 45px;
+  position: absolute;
+  left: 550px;
+  top: 340px;
+  width: 47px;
+  height: 60px;
 }
 
 #option3 {
-  position: relative;
-  left: 605px;
-  bottom: 372px;
-  width: 10%;
-  height: 45px;
+  position: absolute;
+  left: 550px;
+  top: 250px;
+  width: 47px;
+  height: 60px;;
 }
 
 #option4 {
-  position: relative;
-  left: 610px;
-  bottom: 222px;
-  width: 10%;
-  height: 45px;
+  position: absolute;
+  left: 616px;
+  top: 440px;
+  width: 47px;
+  height: 60px;
 }
 
 #option5 {
-  position: relative;
-  left: 562px;
-  bottom: 297px;
-  width: 10%;
-  height: 45px;
+  position: absolute;
+  left: 616px;
+  top: 340px;
+  width: 47px;
+  height: 60px;
 }
 
 #option6 {
-  position: relative;
-  left: 515px;
-  bottom: 372px;
-  width: 10%;
-  height: 45px;
+  position: absolute;
+  left: 616px;
+  top: 250px;
+  width: 47px;
+  height: 60px;
 }
 
 #option7 {
-  position: relative;
-  left: 520px;
-  bottom: 222px;
-  width: 10%;
-  height: 45px;
+  position: absolute;
+  left: 681px;
+  top: 440px;
+  width: 47px;
+  height: 60px;
 }
 
 #option8 {
-  position: relative;
-  left: 475px;
-  bottom: 297px;
-  width: 10%;
-  height: 45px;
+  position: absolute;
+  left: 681px;
+  top: 340px;
+  width: 47px;
+  height: 60px;
 }
 
 #option9 {
-  position: relative;
-  left: 427px;
-  bottom: 372px;
-  width: 10%;
-  height: 45px;
+  position: absolute;
+  left: 681px;
+  top: 250px;
+  width: 47px;
+  height: 60px;
 }
 
 #option10 {
-  position: relative;
-  left: 854px;
-  bottom: 267px;
-  width: 10%;
-  height: 45px;
+  position: absolute;
+  left: 746px;
+  top: 440px;
+  width: 47px;
+  height: 60px;
 }
 
 #option11 {
-  position: relative;
-  left: 807px;
-  bottom: 342px;
-  width: 10%;
-  height: 45px;
+  position: absolute;
+  left: 747px;
+  top: 340px;
+  width: 47px;
+  height: 60px;
 }
 
 #option12 {
-  position: relative;
-  left: 760px;
-  bottom: 417px;
-  width: 10%;
-  height: 45px;
+  position: absolute;
+  left: 747px;
+  top: 250px;
+  width: 47px;
+  height: 60px;
 }
 
 #option13 {
-  position: relative;
-  left: 765px;
-  bottom: 267px;
-  width: 10%;
-  height: 45px;
+  position: absolute;
+  left: 813px;
+  top: 440px;
+  width: 47px;
+  height: 60px;
 }
 
 #option14 {
-  position: relative;
-  left: 718px;
-  bottom: 342px;
-  width: 10%;
-  height: 45px;
+  position: absolute;
+  left: 813px;
+  top: 340px;
+  width: 47px;
+  height: 60px;
 }
 
 #option15 {
-  position: relative;
-  left: 669px;
-  bottom: 417px;
-  width: 10%;
-  height: 45px;
+  position: absolute;
+  left: 813px;
+  top: 250px;
+  width: 47px;
+  height: 60px;
 }
 
 #option16 {
-  position: relative;
-  left: 673px;
-  bottom: 267px;
-  width: 10%;
-  height: 45px;
+  position: absolute;
+  left: 878px;
+  top: 440px;
+  width: 47px;
+  height: 60px;
 }
 
 #option17 {
-  position: relative;
-  left: 625px;
-  bottom: 342px;
-  width: 10%;
-  height: 45px;
+  position: absolute;
+  left: 878px;
+  top: 340px;
+  width: 47px;
+  height: 60px;
 }
 
 #option18 {
-  position: relative;
-  left: 577px;
-  bottom: 417px;
-  width: 10%;
-  height: 45px;
+  position: absolute;
+  left: 878px;
+  top: 250px;
+  width: 47px;
+  height: 60px;
 }
 
 #option19 {
-  position: relative;
-  left: 1007px;
-  bottom: 312px;
-  width: 10%;
-  height: 45px;
+  position: absolute;
+  left: 944px;
+  top: 440px;
+  width: 47px;
+  height: 60px;
 }
 
 #option20 {
-  position: relative;
-  left: 960px;
-  bottom: 387px;
-  width: 10%;
-  height: 45px;
+  position: absolute;
+  left: 944px;
+  top: 340px;
+  width: 47px;
+  height: 60px;
 }
 
 #option21 {
-  position: relative;
-  left: 912px;
-  bottom: 462px;
-  width: 10%;
-  height: 45px;
+  position: absolute;
+  left: 944px;
+  top: 250px;
+  width: 47px;
+  height: 60px;
 }
 
 #option22 {
-  position: relative;
-  left: 917px;
-  bottom: 312px;
-  width: 10%;
-  height: 45px;
+  position: absolute;
+  left: 1009px;
+  top: 440px;
+  width: 47px;
+  height: 60px;
 }
 
 #option23 {
-  position: relative;
-  left: 870px;
-  bottom: 387px;
-  width: 10%;
-  height: 45px;
+  position: absolute;
+  left: 1009px;
+  top: 340px;
+  width: 47px;
+  height: 60px;
 }
 
 #option24 {
-  position: relative;
-  left: 822px;
-  bottom: 462px;
-  width: 10%;
-  height: 45px;
+  position: absolute;
+  left: 1009px;
+  top: 250px;
+  width: 47px;
+  height: 60px;
 }
 
 #option25 {
-  position: relative;
-  left: 827px;
-  bottom: 312px;
-  width: 10%;
-  height: 45px;
+  position: absolute;
+  left: 1075px;
+  top: 440px;
+  width: 47px;
+  height: 60px;
 }
 
 #option26 {
-  position: relative;
-  left: 780px;
-  bottom: 387px;
-  width: 10%;
-  height: 45px;
+  position: absolute;
+  left: 1075px;
+  top: 340px;
+  width: 47px;
+  height: 60px;
 }
 
 #option27 {
-  position: relative;
-  left: 732px;
-  bottom: 462px;
-  width: 10%;
-  height: 45px;
+  position: absolute;
+  left: 1075px;
+  top: 250px;
+  width: 47px;
+  height: 60px;
 }
 
 #option28 {
-  position: relative;
-  left: 1160px;
-  bottom: 357px;
-  width: 10%;
-  height: 45px;
+  position: absolute;
+  left: 1141px;
+  top: 440px;
+  width: 47px;
+  height: 60px;
 }
 
 #option29 {
-  position: relative;
-  left: 1113px;
-  bottom: 432px;
-  width: 10%;
-  height: 45px;
+  position: absolute;
+  left: 1141px;
+  top: 340px;
+  width: 47px;
+  height: 60px;
 }
 
 #option30 {
-  position: relative;
-  left: 1066px;
-  bottom: 507px;
-  width: 10%;
-  height: 45px;
+  position: absolute;
+  left: 1141px;
+  top: 250px;
+  width: 47px;
+  height: 60px;
 }
 
 #option31 {
-  position: relative;
-  left: 1070px;
-  bottom: 357px;
-  width: 10%;
-  height: 45px;
+  position: absolute;
+  left: 1206px;
+  top: 440px;
+  width: 47px;
+  height: 60px;
 }
 
 #option32 {
-  position: relative;
-  left: 1023px;
-  bottom: 432px;
-  width: 10%;
-  height: 45px;
+  position: absolute;
+  left: 1206px;
+  top: 340px;
+  width: 47px;
+  height: 60px;
 }
 
 #option33 {
-  position: relative;
-  left: 976px;
-  bottom: 507px;
-  width: 10%;
-  height: 45px;
+  position: absolute;
+  left: 1206px;
+  top: 250px;
+  width: 47px;
+  height: 60px;
 }
 
 #option34 {
-  position: relative;
-  left: 980px;
-  bottom: 357px;
-  width: 10%;
-  height: 45px;
+  position: absolute;
+  left: 1272px;
+  top: 440px;
+  width: 47px;
+  height: 60px;
 }
 
 #option35 {
-  position: relative;
-  left: 933px;
-  bottom: 432px;
-  width: 10%;
-  height: 45px;
+  position: absolute;
+  left: 1272px;
+  top: 340px;
+  width: 47px;
+  height: 60px;
 }
 
 #option36 {
-  position: relative;
-  left: 885px;
-  bottom: 507px;
-  width: 10%;
-  height: 45px;
+  position: absolute;
+  left: 1272px;
+  top: 250px;
+  width: 47px;
+  height: 60px;
 }
 
 #option0 {
-  position: relative;
-  left: 635px;
-  bottom: 520px;
-  width: 13%;
-  height: 130px;
+  position: absolute;
+  left: 465px;
+  top: 285px;
+  width: 75px;
+  height: 175px;
 }
 
 #option1st12 {
-  position: relative;
-  left: 641px;
-  bottom: 383px;
-  width: 45%;
+  position: absolute;
+  left: 553px;
+  top: 524px;
+  width: 240px;
   height: 47px;
 }
 
 #option2nd12 {
-  position: relative;
-  left: 907px;
-  bottom: 471px;
-  width: 45%;
+  position: absolute;
+  left: 815px;
+  top: 524px;
+  width: 240px;
   height: 47px;
 }
 
 #option3rd12 {
-  position: relative;
-  left: 912px;
-  bottom: 472px;
-  width: 45%;
+  position: absolute;
+  left: 1077px;
+  top: 524px;
+  width: 240px;
   height: 47px;
 }
 
 #option1to18 {
-  position: relative;
-  left: 700px;
-  bottom: 467px;
-  width: 22%;
+  position: absolute;
+  left: 545px;
+  top: 590px;
+  width: 125px;
   height: 47px;
 }
 
 #optionEven {
-  position: relative;
-  left: 703px;
-  bottom: 467px;
-  width: 22%;
+  position: absolute;
+  left: 675px;
+  top: 590px;
+  width: 125px;
   height: 47px;
 }
 
 #optionRed {
-  position: relative;
-  left: 707px;
-  bottom: 467px;
-  width: 22%;
+  position: absolute;
+  left: 806px;
+  top: 590px;
+  width: 125px;
   height: 47px;
 }
 
 #optionBlack {
-  position: relative;
-  left: 710px;
-  bottom: 467px;
-  width: 22%;
+  position: absolute;
+  left: 937px;
+  top: 590px;
+  width: 125px;
   height: 47px;
 }
 
 #optionOdd {
-  position: relative;
-  left: 1109px;
-  bottom: 521px;
-  width: 22%;
+  position: absolute;
+  left: 1068px;
+  top: 590px;
+  width: 125px;
   height: 47px;
 }
 
 #option19to36 {
-  position: relative;
-  left: 1112px;
-  bottom: 521px;
-  width: 22%;
+  position: absolute;
+  left: 1201px;
+  top: 590px;
+  width: 125px;
   height: 47px;
 }
 
 #optionTwoToOne1 {
-  position: relative;
-  left: 1116px;
-  bottom: 635px;
-  width: 10%;
-  height: 60px;
+  position: absolute;
+  left: 1332px;
+  top: 430px;
+  width: 58px;
+  height: 80px;
 }
 
 #optionTwoToOne2 {
-  position: relative;
-  left: 1070px;
-  bottom: 708px;
-  width: 10%;
-  height: 60px;
+  position: absolute;
+  left: 1332px;
+  top: 335px;
+  width: 58px;
+  height: 80px;
 }
 
 #optionTwotoOne3 {
-  position: relative;
-  left: 1022px;
-  bottom: 782px;
-  width: 10%;
-  height: 60px;
+  position: absolute;
+  left: 1332px;
+  top: 240px;
+  width: 58px;
+  height: 80px;
 }
 
 #oneOverTwo {
-  position: relative;
-  left: 701px;
-  bottom: 714px;
-  width: 10%;
+  position: absolute;
+  left: 550px;
+  top: 407px;
+  width: 47px;
   height: 25px;
 }
 
 #twoOverThree {
-  position: relative;
-  left: 654px;
-  bottom: 788px;
-  width: 10%;
+  position: absolute;
+  left: 550px;
+  top: 312px;
+  width: 47px;
   height: 25px;
 }
 
 #fourOverFive {
-  position: relative;
-  left: 657px;
-  bottom: 714px;
-  width: 10%;
+  position: absolute;
+  left: 617px;
+  top: 407px;
+  width: 47px;
   height: 25px;
 }
 
 #fiveOverSix {
-  position: relative;
-  left: 609px;
-  bottom: 788px;
-  width: 10%;
+  position: absolute;
+  left: 617px;
+  top: 312px;
+  width: 47px;
   height: 25px;
 }
 
 #sevenOverEight {
-  position: relative;
-  left: 614px;
-  bottom: 713px;
-  width: 10%;
+  position: absolute;
+  left: 682px;
+  top: 407px;
+  width: 47px;
   height: 25px;
 }
 
 #eightOverNine {
-  position: relative;
-  left: 567px;
-  bottom: 788px;
-  width: 10%;
+  position: absolute;
+  left: 682px;
+  top: 312px;
+  width: 47px;
   height: 25px;
 }
 
 #tenOverEleven {
-  position: relative;
-  left: 572px;
-  bottom: 713px;
-  width: 10%;
+  position: absolute;
+  left: 747px;
+  top: 407px;
+  width: 47px;
   height: 25px;
 }
 
 #elevenOverTwelve {
-  position: relative;
-  left: 524px;
-  bottom: 788px;
-  width: 10%;
+  position: absolute;
+  left: 747px;
+  top: 312px;
+  width: 47px;
   height: 25px;
 }
 
 #thirteenOverFourteen {
-  position: relative;
-  left: 530px;
-  bottom: 713px;
-  width: 10%;
+  position: absolute;
+  left: 812px;
+  top: 407px;
+  width: 47px;
   height: 25px;
 }
 
 #fourteenOverFifteen {
-  position: relative;
-  left: 905px;
-  bottom: 813px;
-  width: 10%;
+  position: absolute;
+  left: 812px;
+  top: 312px;
+  width: 47px;
   height: 25px;
 }
 
 #sixteenOverSeventeen {
-  position: relative;
-  left: 910px;
-  bottom: 738px;
-  width: 10%;
+  position: absolute;
+  left: 878px;
+  top: 407px;
+  width: 47px;
   height: 25px;
 }
 
 #seventeenOverEighteen {
-  position: relative;
-  left: 862px;
-  bottom: 813px;
-  width: 10%;
+  position: absolute;
+  left: 878px;
+  top: 312px;
+  width: 47px;
   height: 25px;
 }
 
 #nineteenOverTwenty {
-  position: relative;
-  left: 865px;
-  bottom: 738px;
-  width: 10%;
+  position: absolute;
+  left: 943px;
+  top: 407px;
+  width: 47px;
   height: 25px;
 }
 
 #twentyOverTwentyOne {
-  position: relative;
-  left: 818px;
-  bottom: 813px;
-  width: 10%;
+  position: absolute;
+  left: 943px;
+  top: 312px;
+  width: 47px;
   height: 25px;
 }
 
 #twentyTwoOverTwentyThree {
-  position: relative;
-  left: 822px;
-  bottom: 737px;
-  width: 10%;
+  position: absolute;
+  left: 1010px;
+  top: 407px;
+  width: 47px;
   height: 25px;
 }
 
 #twentyThreeOverTwentyFour {
-  position: relative;
-  left: 775px;
-  bottom: 813px;
-  width: 10%;
+  position: absolute;
+  left: 1010px;
+  top: 312px;
+  width: 47px;
   height: 25px;
 }
 
 #twentyFiveOverTwentySix {
-  position: relative;
-  left: 780px;
-  bottom: 737px;
-  width: 10%;
+  position: absolute;
+  left: 1075px;
+  top: 407px;
+  width: 47px;
   height: 25px;
 }
 
 #twentySixOverTwentySeven {
-  position: relative;
-  left: 732px;
-  bottom: 813px;
-  width: 10%;
+  position: absolute;
+  left: 1075px;
+  top: 312px;
+  width: 47px;
   height: 25px;
 }
 
 #twentyEightOverTwentyNine {
-  position: relative;
-  left: 1161px;
-  bottom: 762px;
-  width: 10%;
+  position: absolute;
+  left: 1140px;
+  top: 407px;
+  width: 47px;
   height: 25px;
 }
 
 #twentyNineOverThirty {
-  position: relative;
-  left: 1113px;
-  bottom: 838px;
-  width: 10%;
+  position: absolute;
+  left: 1140px;
+  top: 312px;
+  width: 47px;
   height: 25px;
 }
 
 #thirtyOneOverThirtyTwo {
-  position: relative;
-  left: 1118px;
-  bottom: 763px;
-  width: 10%;
+  position: absolute;
+  left: 1205px;
+  top: 407px;
+  width: 47px;
   height: 25px;
 }
 
 #thirtyTwoOverThirtyThree {
-  position: relative;
-  left: 1070px;
-  bottom: 838px;
-  width: 10%;
+  position: absolute;
+  left: 1205px;
+  top: 312px;
+  width: 47px;
   height: 25px;
 }
 
 #thirtyFourOverThirtyFive {
-  position: relative;
-  left: 1074px;
-  bottom: 762px;
-  width: 10%;
+  position: absolute;
+  left: 1270px;
+  top: 407px;
+  width: 47px;
   height: 25px;
 }
 
 #thirtyFiveOverThirtySix {
-  position: relative;
-  left: 1028px;
-  bottom: 838px;
-  width: 10%;
+  position: absolute;
+  left: 1270px;
+  top: 312px;
+  width: 47px;
   height: 25px;
 }
 
 #oneToFive {
-  position: relative;
-  left: 739px;
-  bottom: 789px;
-  width: 18px;
-  height: 25px;
+  position: absolute;
+  left: 595px;
+  top: 405px;
+  width: 25px;
+  height: 43px;
 }
 
 #twoToSix {
-  position: relative;
-  left: 718px;
-  bottom: 863px;
-  width: 18px;
-  height: 25px;
+  position: absolute;
+  left: 595px;
+  top: 310px;
+  width: 25px;
+  height: 43px;
 }
 
 #fourToEight {
-  position: relative;
-  left: 747px;
-  bottom: 789px;
-  width: 18px;
-  height: 25px;
+  position: absolute;
+  left: 660px;
+  top: 405px;
+  width: 25px;
+  height: 43px;
 }
 
 #fiveToNine {
-  position: relative;
-  left: 725px;
-  bottom: 863px;
-  width: 18px;
-  height: 25px;
+  position: absolute;
+  left: 660px;
+  top: 310px;
+  width: 25px;
+  height: 43px;
 }
 
 #sevenToEleven {
-  position: relative;
-  left: 754px;
-  bottom: 789px;
-  width: 18px;
-  height: 25px;
+  position: absolute;
+  left: 725px;
+  top: 405px;
+  width: 25px;
+  height: 43px;
 }
 
 #eightToTwelve {
-  position: relative;
-  left: 732px;
-  bottom: 863px;
-  width: 18px;
-  height: 25px;
+  position: absolute;
+  left: 725px;
+  top: 310px;
+  width: 25px;
+  height: 43px;
 }
 
 #tenToFourteen {
-  position: relative;
-  left: 760px;
-  bottom: 789px;
-  width: 18px;
-  height: 25px;
+  position: absolute;
+  left: 790px;
+  top: 405px;
+  width: 25px;
+  height: 43px;
 }
 
 #elevenToFifteen {
-  position: relative;
-  left: 738px;
-  bottom: 863px;
-  width: 18px;
-  height: 25px;
+  position: absolute;
+  left: 790px;
+  top: 310px;
+  width: 25px;
+  height: 43px;
 }
 
 #thirteenToSeventeen {
-  position: relative;
-  left: 767px;
-  bottom: 789px;
-  width: 18px;
-  height: 25px;
+  position: absolute;
+  left: 857px;
+  top: 405px;
+  width: 25px;
+  height: 43px;
 }
 
 #fourteenToEighteen {
-  position: relative;
-  left: 745px;
-  bottom: 863px;
-  width: 18px;
-  height: 25px;
+  position: absolute;
+  left: 857px;
+  top: 310px;
+  width: 25px;
+  height: 43px;
 }
 
 #sixteenToTwenty {
-  position: relative;
-  left: 774px;
-  bottom: 789px;
-  width: 18px;
-  height: 25px;
+  position: absolute;
+  left: 922px;
+  top: 405px;
+  width: 25px;
+  height: 43px;
 }
 
 #seventeenToTwentyOne {
-  position: relative;
-  left: 752px;
-  bottom: 863px;
-  width: 18px;
-  height: 25px;
+  position: absolute;
+  left: 922px;
+  top: 310px;
+  width: 25px;
+  height: 43px;
 }
 
 #nineteenToTwentyThree {
-  position: relative;
-  left: 782px;
-  bottom: 789px;
-  width: 18px;
-  height: 25px;
+  position: absolute;
+  left: 988px;
+  top: 405px;
+  width: 25px;
+  height: 43px;
 }
 
 #twentyToTwentyFour {
-  position: relative;
-  left: 760px;
-  bottom: 863px;
-  width: 18px;
-  height: 25px;
+  position: absolute;
+  left: 988px;
+  top: 310px;
+  width: 25px;
+  height: 43px;
 }
 
 #twentyTwoToTwentySix {
-  position: relative;
-  left: 788px;
-  bottom: 789px;
-  width: 18px;
-  height: 25px;
+  position: absolute;
+  left: 1053px;
+  top: 405px;
+  width: 25px;
+  height: 43px;
 }
 
 #twentyThreeToTwentySeven {
-  position: relative;
-  left: 767px;
-  bottom: 863px;
-  width: 18px;
-  height: 25px;
+  position: absolute;
+  left: 1053px;
+  top: 310px;
+  width: 25px;
+  height: 43px;
 }
 
 #twentyfiveToTwentyNine {
-  position: relative;
-  left: 796px;
-  bottom: 789px;
-  width: 18px;
-  height: 25px;
+  position: absolute;
+  left: 1120px;
+  top: 405px;
+  width: 25px;
+  height: 43px;
 }
 
 #twentySixToThirty {
-  position: relative;
-  left: 773px;
-  bottom: 863px;
-  width: 18px;
-  height: 25px;
+  position: absolute;
+  left: 1120px;
+  top: 310px;
+  width: 25px;
+  height: 43px;
 }
 
 #twentyEightToThirtyTwo {
-  position: relative;
-  left: 803px;
-  bottom: 789px;
-  width: 18px;
-  height: 25px;
+  position: absolute;
+  left: 1184px;
+  top: 405px;
+  width: 25px;
+  height: 43px;
 }
 
 #twentyNineToThirtyThree {
-  position: relative;
-  left: 1200px;
-  bottom: 888px;
-  width: 18px;
-  height: 25px;
+  position: absolute;
+  left: 1184px;
+  top: 310px;
+  width: 25px;
+  height: 43px;
 }
 
 #thirtyOneToThirtyFive {
-  position: relative;
-  left: 1228px;
-  bottom: 815px;
-  width: 18px;
-  height: 25px;
+  position: absolute;
+  left: 1250px;
+  top: 405px;
+  width: 25px;
+  height: 43px;
 }
 
 #thirtyTwoToThirtySix {
-  position: relative;
-  left: 1206px;
-  bottom: 888px;
-  width: 18px;
-  height: 25px;
+  position: absolute;
+  left: 1250px;
+  top: 310px;
+  width: 25px;
+  height: 43px;
 }
 
 .instructionsDiv {
-  z-index: 3;
+  z-index: -3;
   width: 700px;
-  position: relative;
+  position: absolute;
   background-color: rgb(98,57,27);
   padding: 17px;
   font-size: 20px;
@@ -915,544 +920,537 @@ h1  {
   color: white;
   line-height: 25px;
   left: 699px;
-  bottom: 1202px;
+  top: 100px;
   opacity: 0;
 }
 
 .straightBetButtons {
   opacity: 0;
-  z-index: 2;
+  /* z-index: 2; */
 }
 
+.rowBetButtons {
+  opacity: 0;
+}
 
-
+.fourCornerButtons {
+  opacity: 0;
+}
 
 
 /* CHIPS FOR EACH BUTTON */
 
+
 #chip1 {
-  position: relative;
-  left: 700px;
-  bottom: 1030px;
+  position: absolute;
+  left: 550px;
+  top: 460px;
   opacity: 0;
 }
 
 #chip2 {
-  position: relative;
-  left: 655px;
-  bottom: 1100px;
+  position: absolute;
+  left: 550px;
+  top: 360px;
   opacity: 0;
 }
 
 #chip3 {
-  position: relative;
-  left: 610px;
-  bottom: 1180px;
+  position: absolute;
+  left: 550px;
+  top: 270px;
   opacity: 0;
 }
 
 #chip4 {
-  position: relative;
+  position: absolute;
   left: 620px;
-  bottom: 1030px;
+  top: 460px;
   opacity: 0;
 }
 
 #chip5 {
-  position: relative;
-  left: 575px;
-  bottom: 1100px;
+  position: absolute;
+  left: 620px;
+  top: 360px;
   opacity: 0;
 }
 
-#chip5 {
-  position: relative;
-  left: 575px;
-  bottom: 1100px;
-  opacity: 0;
-}
 
 #chip6 {
-  position: relative;
-  left: 533px;
-  bottom: 1180px;
+  position: absolute;
+  left: 620px;
+  top: 270px;
   opacity: 0;
 }
 
 #chip7 {
-  position: relative;
-  left: 540px;
-  bottom: 1030px;
+  position: absolute;
+  left: 685px;
+  top: 460px;
   opacity: 0;
 }
 
 #chip8 {
-  position: relative;
-  left: 495px;
-  bottom: 1100px;
+  position: absolute;
+  left: 685px;
+  top: 360px;
   opacity: 0;
 }
 
 #chip9 {
-  position: relative;
-  left: 455px;
-  bottom: 1180px;
+  position: absolute;
+  left: 685px;
+  top: 270px;
   opacity: 0;
 }
 
 #chip10 {
-  position: relative;
-  left: 855px;
-  bottom: 1060px;
+  position: absolute;
+  left: 750px;
+  top: 460px;
   opacity: 0;
 }
 
 #chip11 {
-  position: relative;
-  left: 810px;
-  bottom: 1130px;
+  position: absolute;
+  left: 750px;
+  top: 360px;
   opacity: 0;
 }
 
 #chip12 {
-  position: relative;
-  left: 770px;
-  bottom: 1210px;
+  position: absolute;
+  left: 750px;
+  top: 270px;
   opacity: 0;
 }
 
 #chip13 {
-  position: relative;
-  left: 775px;
-  bottom: 1060px;
+  position: absolute;
+  left: 815px;
+  top: 460px;
   opacity: 0;
 }
 
 #chip14 {
-  position: relative;
-  left: 730px;
-  bottom: 1130px;
+  position: absolute;
+  left: 815px;
+  top: 360px;
   opacity: 0;
 }
 
 #chip15 {
-  position: relative;
-  left: 685px;
-  bottom: 1210px;
+  position: absolute;
+  left: 815px;
+  top: 270px;
   opacity: 0;
 }
 
 #chip16 {
-  position: relative;
-  left: 695px;
-  bottom: 1060px;
+  position: absolute;
+  left: 880px;
+  top: 460px;
   opacity: 0;
 }
 
 #chip17 {
-  position: relative;
-  left: 650px;
-  bottom: 1130px;
+  position: absolute;
+  left: 880px;
+  top: 360px;
   opacity: 0;
 }
 
 #chip18 {
-  position: relative;
-  left: 605px;
-  bottom: 1210px;
+  position: absolute;
+  left: 880px;
+  top: 270px;
   opacity: 0;
 }
 
 #chip19 {
-  position: relative;
-  left: 1010px;
-  bottom: 1090px;
+  position: absolute;
+  left: 945px;
+  top: 460px;
   opacity: 0;
 }
 
 #chip20 {
-  position: relative;
-  left: 965px;
-  bottom: 1160px;
+  position: absolute;
+  left: 945px;
+  top: 360px;
   opacity: 0;
 }
 
 #chip21 {
-  position: relative;
-  left: 920px;
-  bottom: 1240px;
+  position: absolute;
+  left: 945px;
+  top: 270px;
   opacity: 0;
 }
 
 #chip22 {
-  position: relative;
-  left: 930px;
-  bottom: 1090px;
+  position: absolute;
+  left: 1010px;
+  top: 460px;
   opacity: 0;
 }
 
 #chip23 {
-  position: relative;
-  left: 885px;
-  bottom: 1160px;
+  position: absolute;
+  left: 1010px;
+  top: 360px;
   opacity: 0;
 }
 
 #chip24 {
-  position: relative;
-  left: 840px;
-  bottom: 1240px;
+  position: absolute;
+  left: 1010px;
+  top: 270px;
   opacity: 0;
 }
 
 #chip25 {
-  position: relative;
-  left: 850px;
-  bottom: 1090px;
+  position: absolute;
+  left: 1075px;
+  top: 460px;
   opacity: 0;
 }
 
 #chip26 {
-  position: relative;
-  left: 805px;
-  bottom: 1160px;
+  position: absolute;
+  left: 1075px;
+  top: 360px;
   opacity: 0;
 }
 
 #chip27 {
-  position: relative;
-  left: 760px;
-  bottom: 1240px;
+  position: absolute;
+  left: 1075px;
+  top: 270px;
   opacity: 0;
 }
 
 #chip28 {
-  position: relative;
-  left: 1160px;
-  bottom: 1120px;
+  position: absolute;
+  left: 1140px;
+  top: 460px;
   opacity: 0;
 }
 
 #chip29 {
-  position: relative;
-  left: 1115px;
-  bottom: 1190px;
+  position: absolute;
+  left: 1140px;
+  top: 360px;
   opacity: 0;
 }
 
 #chip30 {
-  position: relative;
-  left: 1070px;
-  bottom: 1270px;
+  position: absolute;
+  left: 1140px;
+  top: 270px;
   opacity: 0;
 }
 
 #chip31 {
-  position: relative;
-  left: 1080px;
-  bottom: 1120px;
+  position: absolute;
+  left: 1205px;
+  top: 460px;
   opacity: 0;
 }
 
 #chip32 {
-  position: relative;
-  left: 1035px;
-  bottom: 1190px;
+  position: absolute;
+  left: 1205px;
+  top: 360px;
   opacity: 0;
 }
 
 #chip33 {
-  position: relative;
-  left: 990px;
-  bottom: 1270px;
+  position: absolute;
+  left: 1205px;
+  top: 270px;
   opacity: 0;
 }
 
 #chip34 {
-  position: relative;
-  left: 1000px;
-  bottom: 1120px;
+  position: absolute;
+  left: 1270px;
+  top: 460px;
   opacity: 0;
 }
 
 #chip35 {
-  position: relative;
-  left: 955px;
-  bottom: 1190px;
+  position: absolute;
+  left: 1270px;
+  top: 360px;
   opacity: 0;
 }
 
 #chip36 {
-  position: relative;
-  left: 910px;
-  bottom: 1270px;
+  position: absolute;
+  left: 1270px;
+  top: 270px;
   opacity: 0;
 }
 
 #chip0 {
-  position: relative;
-  left: 645px;
-  bottom: 1220px;
+  position: absolute;
+  left: 475px;
+  top: 360px;
   opacity: 0;
 }
 
 #chip2To1One {
-  position: relative;
-  left: 1270px;
-  bottom: 1150px;
+  position: absolute;
+  left: 1345px;
+  top: 460px;
   opacity: 0;
 }
 
 #chip2To1Two {
-  position: relative;
-  left: 1230px;
-  bottom: 1220px;
+  position: absolute;
+  left: 1345px;
+  top: 360px;
   opacity: 0;
 }
 
 #chip2To1Three {
-  position: relative;
-  left: 1185px;
-  bottom: 1300px;
+  position: absolute;
+  left: 1345px;
+  top: 270px;
   opacity: 0;
 }
 
 #chip1st12 {
-  position: relative;
-  left: 605px;
-  bottom: 1085px;
+  position: absolute;
+  left: 650px;
+  top: 535px;
   opacity: 0;
 }
 
 #chip2nd12 {
-  position: relative;
-  left: 765px;
-  bottom: 1085px;
+  position: absolute;
+  left: 910px;
+  top: 535px;
   opacity: 0;
 }
 
 #chip3rd12 {
-  position: relative;
-  left: 920px;
-  bottom: 1085px;
+  position: absolute;
+  left: 1170px;
+  top: 535px;
   opacity: 0;
 }
 
 #chip1To18 {
-  position: relative;
-  left: 425px;
-  bottom: 1030px;
+  position: absolute;
+  left: 590px;
+  top: 600px;
   opacity: 0;
 }
 
 #chipEven {
-  position: relative;
-  left: 480px;
-  bottom: 1030px;
+  position: absolute;
+  left: 715px;
+  top: 600px;
   opacity: 0;
 }
 
 #chipRed {
-  position: relative;
-  left: 930px;
-  bottom: 1060px;
+  position: absolute;
+  left: 850px;
+  top: 600px;
   opacity: 0;
 }
 
 #chipBlack {
-  position: relative;
-  left: 990px;
-  bottom: 1060px;
+  position: absolute;
+  left: 975px;
+  top: 600px;
   opacity: 0;
 }
 
 #chipOdd {
-  position: relative;
-  left: 1050px;
-  bottom: 1060px;
+  position: absolute;
+  left: 1100px;
+  top: 600px;
   opacity: 0;
 }
 
 #chip19To36 {
-  position: relative;
-  left: 1110px;
-  bottom: 1060px;
+  position: absolute;
+  left: 1240px;
+  top: 600px;
   opacity: 0;
 }
 
 #chip1Over2 {
-  position: relative;
-  left: 700px;
-  bottom: 1243px;
+  position: absolute;
+  left: 545px;
+  top: 407px;
   opacity: 0;
 }
 
 #chip2Over3 {
-  position: relative;
-  left: 655px;
-  bottom: 1315px;
-  opacity: 0;
-}
-
-#chip3Over4 {
-  position: relative;
-  left: 655px;
-  bottom: 1315px;
+  position: absolute;
+  left: 545px;
+  top: 311px;
   opacity: 0;
 }
 
 #chip4Over5 {
-  position: relative;
-  left: 665px;
-  bottom: 1243px;
+  position: absolute;
+  left: 612px;
+  top: 407px;
   opacity: 0;
 }
 
 #chip5Over6 {
-  position: relative;
-  left: 620px;
-  bottom: 1315px;
+  position: absolute;
+  left: 612px;
+  top: 311px;
   opacity: 0;
 }
 
 #chip7Over8 {
-  position: relative;
-  left: 630px;
-  bottom: 1243px;
+  position: absolute;
+  left: 675px;
+  top: 407px;
   opacity: 0;
 }
 
 #chip8Over9 {
-  position: relative;
-  left: 585px;
-  bottom: 1315px;
+  position: absolute;
+  left: 675px;
+  top: 311px;
   opacity: 0;
 }
 
 #chip10Over11 {
-  position: relative;
-  left: 590px;
-  bottom: 1242px;
+  position: absolute;
+  left: 740px;
+  top: 407px;
   opacity: 0;
 }
 
 #chip11Over12 {
-  position: relative;
-  left: 547px;
-  bottom: 1315px;
+  position: absolute;
+  left: 740px;
+  top: 311px;
   opacity: 0;
 }
 
 #chip13Over14 {
-  position: relative;
-  left: 555px;
-  bottom: 1240px;
+  position: absolute;
+  left: 805px;
+  top: 407px;
   opacity: 0;
 }
 
 #chip14Over15 {
-  position: relative;
-  left: 905px;
-  bottom: 1345px;
+  position: absolute;
+  left: 805px;
+  top: 311px;
   opacity: 0;
 }
 
 #chip16Over17 {
-  position: relative;
-  left: 915px;
-  bottom: 1270px;
+  position: absolute;
+  left: 871px;
+  top: 407px;
   opacity: 0;
 }
 
 #chip17Over18 {
-  position: relative;
-  left: 867px;
-  bottom: 1345px;
+  position: absolute;
+  left: 871px;
+  top: 311px;
   opacity: 0;
 }
 
 #chip19Over20 {
-  position: relative;
-  left: 878px;
-  bottom: 1270px;
+  position: absolute;
+  left: 937px;
+  top: 407px;
   opacity: 0;
 }
 
 #chip20Over21 {
-  position: relative;
-  left: 830px;
-  bottom: 1345px;
+  position: absolute;
+  left: 937px;
+  top: 311px;
   opacity: 0;
 }
 
 #chip22Over23 {
-  position: relative;
-  left: 842px;
-  bottom: 1270px;
+  position: absolute;
+  left: 1005px;
+  top: 407px;
   opacity: 0;
 }
 
 
 #chip23Over24 {
-  position: relative;
-  left: 795px;
-  bottom: 1345px;
+  position: absolute;
+  left: 1005px;
+  top: 311px;
   opacity: 0;
 }
 
 #chip25Over26 {
-  position: relative;
-  left: 805px;
-  bottom: 1270px;
+  position: absolute;
+  left: 1070px;
+  top: 407px;
   opacity: 0;
 }
 
 #chip26Over27 {
-  position: relative;
-  left: 760px;
-  bottom: 1345px;
+  position: absolute;
+  left: 1070px;
+  top: 311px;
   opacity: 0;
 }
 
 #chip28Over29 {
-  position: relative;
-  left: 1160px;
-  bottom: 1300px;
+  position: absolute;
+  left: 1135px;
+  top: 407px;
   opacity: 0;
 }
 
 #chip29Over30 {
-  position: relative;
-  left: 1120px;
-  bottom: 1375px;
+  position: absolute;
+  left: 1135px;
+  top: 311px;
   opacity: 0;
 }
 
 #chip31Over32 {
-  position: relative;
-  left: 1125px;
-  bottom: 1300px;
+  position: absolute;
+  left: 1198px;
+  top: 407px;
   opacity: 0;
 }
 
 #chip32Over33 {
-  position: relative;
-  left: 1080px;
-  bottom: 1375px;
+  position: absolute;
+  left: 1198px;
+  top: 311px;
   opacity: 0;
 }
 
 #chip34Over35 {
-  position: relative;
-  left: 1090px;
-  bottom: 1300px;
+  position: absolute;
+  left: 1263px;
+  top: 407px;
   opacity: 0;
 }
 
 #chip35Over36 {
-  position: relative;
-  left: 1045px;
-  bottom: 1375px;
+  position: absolute;
+  left: 1263px;
+  top: 311px;
   opacity: 0;
 }
 
@@ -1461,156 +1459,156 @@ h1  {
 
 
 #chip1To5 {
-  position: relative;
-  left: 727px;
-  bottom: 1332px;
+  position: absolute;
+  left: 586px;
+  top: 407px;
   opacity: 0;
 }
 
 #chip2To6 {
-  position: relative;
-  left: 683px;
-  bottom: 1405px;
+  position: absolute;
+  left: 586px;
+  top: 312px;
   opacity: 0;
 }
 
 #chip4To8 {
-  position: relative;
-  left: 691px;
-  bottom: 1331px;
+  position: absolute;
+  left: 651px;
+  top: 407px;
   opacity: 0;
 }
 
 #chip5To9 {
-  position: relative;
-  left: 647px;
-  bottom: 1405px;
+  position: absolute;
+  left: 651px;
+  top: 312px;
   opacity: 0;
 }
 
 #chip7To11 {
-  position: relative;
-  left: 654px;
-  bottom: 1331px;
+  position: absolute;
+  left: 717px;
+  top: 407px;
   opacity: 0;
 }
 
 #chip8To12 {
-  position: relative;
-  left: 612px;
-  bottom: 1405px;
+  position: absolute;
+  left: 717px;
+  top: 312px;
   opacity: 0;
 }
 
 #chip10To14 {
-  position: relative;
-  left: 616px;
-  bottom: 1331px;
+  position: absolute;
+  left: 780px;
+  top: 407px;
   opacity: 0;
 }
 
 #chip11To15 {
-  position: relative;
-  left: 572px;
-  bottom: 1405px;
+  position: absolute;
+  left: 780px;
+  top: 312px;
   opacity: 0;
 }
 
 #chip13To17 {
-  position: relative;
-  left: 580px;
-  bottom: 1330px;
+  position: absolute;
+  left: 848px;
+  top: 407px;
   opacity: 0;
 }
 
 #chip14To18 {
-  position: relative;
-  left: 930px;
-  bottom: 1434px;
+  position: absolute;
+  left: 848px;
+  top: 312px;
   opacity: 0;
 }
 
 #chip16To20 {
-  position: relative;
-  left: 940px;
-  bottom: 1360px;
+  position: absolute;
+  left: 913px;
+  top: 407px;
   opacity: 0;
 }
 
 #chip17To21 {
-  position: relative;
-  left: 895px;
-  bottom: 1434px;
+  position: absolute;
+  left: 913px;
+  top: 312px;
   opacity: 0;
 }
 
 #chip19To23 {
-  position: relative;
-  left: 903px;
-  bottom: 1359px;
+  position: absolute;
+  left: 980px;
+  top: 407px;
   opacity: 0;
 }
 
 #chip20To24 {
-  position: relative;
-  left: 858px;
-  bottom: 1434px;
+  position: absolute;
+  left: 980px;
+  top: 312px;
   opacity: 0;
 }
 
 #chip22To26 {
-  position: relative;
-  left: 866px;
-  bottom: 1359px;
+  position: absolute;
+  left: 1045px;
+  top: 407px;
   opacity: 0;
 }
 
 #chip23To27 {
-  position: relative;
-  left: 822px;
-  bottom: 1434px;
+  position: absolute;
+  left: 1045px;
+  top: 312px;
   opacity: 0;
 }
 
 #chip25To29 {
-  position: relative;
-  left: 829px;
-  bottom: 1359px;
+  position: absolute;
+  left: 1112px;
+  top: 407px;
   opacity: 0;
 }
 
 #chip26To30 {
-  position: relative;
-  left: 785px;
-  bottom: 1434px;
+  position: absolute;
+  left: 1112px;
+  top: 312px;
   opacity: 0;
 }
 
 #chip28To32 {
-  position: relative;
-  left: 1187px;
-  bottom: 1390px;
+  position: absolute;
+  left: 1175px;
+  top: 407px;
   opacity: 0;
 }
 
 #chip29To33 {
-  position: relative;
-  left: 1145px;
-  bottom: 1465px;
+  position: absolute;
+  left: 1175px;
+  top: 312px;
   opacity: 0;
 }
 
 #chip31To35 {
-  position: relative;
-  left: 1152px;
-  bottom: 1390px;
+  position: absolute;
+  left: 1240px;
+  top: 407px;
   opacity: 0;
 }
 
 #chip32To36 {
-  position: relative;
-  left: 1108px;
-  bottom: 1463px;
+  position: absolute;
+  left: 1240px;
+  top: 312px;
   opacity: 0;
 }
 
@@ -1622,16 +1620,4 @@ h1  {
   100% {
     transform: rotate(360deg);
   }
-}
-
-.straightBetChips{
-  opacity: 100;
-}
-
-.rowBetChips {
-  opacity: 100;
-}
-
-.fourCornerChips {
-  opacity: 100;
 }
