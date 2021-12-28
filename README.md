@@ -13,5 +13,5 @@ Everytime a player spins the wheel and is lucky, their balance amount increases.
 <br>
 The game is fully funcional now as it is but I have leared of a few things I would implement into my project next time around. First of all, I would place my chips as a child of each button and use event.Target to identify which button was clicked and have the related chip appear on the page. This would allow me to make my code much shorter. Secondly, I would animatins to my alert boxes or replace it with something else on the screen. I would also like to add a spinning wheel with animations showing exactly which lucky number the ball has rolled on. I will be able to do this soon after covering sections on various APIs, framewords, and other JS tools. 
 
-Click the link to play!
+Click the link to play!<br>
 https://danishm4557.github.io/Casino-Roulette/
